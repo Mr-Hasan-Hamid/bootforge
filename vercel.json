@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "bootforge",
   "rewrites": [
     {
       "source": "/api/:path*",
@@ -48,7 +47,6 @@
       ]
     }
   ],
-  "regions": ["sin1", "bom1"],
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
   "installCommand": "npm install"
