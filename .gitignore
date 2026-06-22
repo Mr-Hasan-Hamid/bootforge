@@ -39,3 +39,4 @@ next-env.d.ts
 /public/extracted
 /public/previews
 /public/source-zips
+/scripts/bin/

@@ -58,7 +58,7 @@ function HoverPreview({
 
   return (
     <div 
-      className="w-full h-full relative overflow-hidden bg-neutral-100 dark:bg-neutral-900"
+      className="w-full h-full relative overflow-hidden bg-transparent"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -87,7 +87,7 @@ function DrawerPreview({ gifUrl, coverUrl, alt }: { gifUrl: string; coverUrl: st
   }, [gifUrl]);
 
   return (
-    <div className="w-full h-full relative overflow-hidden bg-neutral-100 dark:bg-neutral-900">
+    <div className="w-full h-full relative overflow-hidden bg-transparent">
       {!loaded && (
         <div className="absolute inset-0 z-10">
           <div className="absolute inset-0 skeleton-shimmer" />
@@ -588,19 +588,29 @@ export default function GalleryPage() {
                   </div>
 
                   {/* Info block */}
-                  <div className="p-4 flex flex-col justify-between flex-grow">
+                  <div className="p-4 flex flex-col justify-between flex-grow font-mono text-xs">
                     <div>
-                      <h3 className="text-sm font-semibold tracking-tight text-neutral-800 dark:text-neutral-100 line-clamp-1 group-hover:text-cyan-500 transition-colors">
-                        {anim.name}
+                      <h3 className="text-xs font-bold tracking-tight text-neutral-900 dark:text-neutral-100 line-clamp-1 group-hover:text-cyan-500 transition-colors flex items-center gap-1.5">
+                        <span className="text-cyan-500 font-extrabold">&gt;</span>
+                        <span>{anim.name}</span>
                       </h3>
-                      <p className="text-[11px] font-mono text-neutral-500 dark:text-neutral-400 mt-1 truncate">
-                        {anim.zipName}
-                      </p>
+                      <div className="mt-2.5 space-y-1 text-[10px] text-neutral-500 dark:text-neutral-400">
+                        <div className="flex items-center gap-1.5">
+                          <span className="text-neutral-400 dark:text-neutral-600">file:</span>
+                          <span className="truncate select-all" title={anim.zipName}>{anim.zipName}</span>
+                        </div>
+                      </div>
                     </div>
                     
-                    <div className="flex items-center justify-between mt-4 pt-3 border-t border-neutral-200 dark:border-neutral-900/60 text-[11px] font-mono text-neutral-500 dark:text-neutral-400">
-                      <span>{anim.fps} FPS</span>
-                      <span>{anim.sizeFormatted}</span>
+                    <div className="flex items-center justify-between mt-4 pt-3 border-t border-neutral-200 dark:border-neutral-900/60 text-[10px] text-neutral-500 dark:text-neutral-400">
+                      <div className="flex items-center gap-1">
+                        <span className="text-neutral-400 dark:text-neutral-600">fps:</span>
+                        <span className="text-neutral-800 dark:text-neutral-300 font-bold">{anim.fps}</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <span className="text-neutral-400 dark:text-neutral-600">size:</span>
+                        <span className="text-neutral-800 dark:text-neutral-300 font-bold">{anim.sizeFormatted}</span>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -16,15 +16,34 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Android Boot Animation Studio & Gallery",
-  description: "Explore 220+ Android boot animations in high-quality previews. Parse desc.txt configuration, adjust speed and loop parameters, download root-ready ZIPs, or create your own animations client-side.",
-  keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "Vercel Theme", "GIF Preview", "Android Customization"],
-  authors: [{ name: "Android Theme Studio" }],
+  title: "BootForge — Android Boot Animation Studio & Gallery",
+  description: "Explore 220+ Android boot animations in high-quality previews. Parse desc.txt, adjust speed and loop parameters, download root-ready ZIPs, or create custom boot animations from video — all client-side.",
+  keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "GIF Preview", "Android Customization", "BootForge", "flashable zip"],
+  authors: [{ name: "BootForge" }],
+  manifest: "/manifest.json",
+  openGraph: {
+    title: "BootForge — Android Boot Animation Studio & Gallery",
+    description: "220+ Android boot animations. Edit parameters, simulate playback, convert video, and download root-ready ZIPs.",
+    type: "website",
+    locale: "en_US",
+    siteName: "BootForge",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BootForge — Android Boot Animation Studio",
+    description: "220+ Android boot animations. Edit, simulate, convert & download.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+  },
 };
 
 export const viewport = {
   width: "device-width",
   initialScale: 1,
+  themeColor: "#000000",
 };
 
 export default function RootLayout({
@@ -66,7 +85,7 @@ export default function RootLayout({
             
             <div className="flex items-center gap-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Mr-Hasan-Hamid/bootforge" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors flex items-center justify-center"
@@ -89,28 +108,129 @@ export default function RootLayout({
           {children}
         </main>
 
-        {/* Footer */}
-        <footer className="w-full bg-neutral-50 dark:bg-black py-12 px-6 border-t border-neutral-100 dark:border-neutral-900" style={{ borderTopWidth: "1px" }}>
-          <div className="mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="flex flex-col items-center md:items-start gap-2">
-              <div className="flex items-center gap-2">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-neutral-400 dark:text-neutral-600">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
-                <span className="text-xs font-bold tracking-tight text-neutral-450 dark:text-neutral-600 font-sans flex items-center">
-                  <span>Boot</span>
-                  <span className="text-neutral-500 dark:text-neutral-550">Forge</span>
-                </span>
+        {/* Premium Developer Footer */}
+        <footer className="w-full bg-neutral-50 dark:bg-black/90 border-t border-neutral-200/60 dark:border-neutral-900 py-16 px-6 font-sans relative overflow-hidden">
+          {/* Subtle top glow grid */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent" />
+          
+          <div className="mx-auto max-w-7xl">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-6 pb-12 border-b border-neutral-200/60 dark:border-neutral-900">
+              
+              {/* Col 1: Brand & Live Status (4 cols) */}
+              <div className="md:col-span-4 space-y-4">
+                <div className="flex items-center gap-2.5">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-cyan-500 dark:text-cyan-400">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                  </svg>
+                  <span className="text-sm font-black tracking-tight text-neutral-950 dark:text-white">
+                    <span>Boot</span>
+                    <span className="text-cyan-500 dark:text-cyan-400">Forge</span>
+                  </span>
+                </div>
+                
+                <p className="text-xs text-neutral-500 dark:text-neutral-400 leading-relaxed max-w-xs">
+                  Ultimate developer workspace and client-side packaging toolkit for custom Android ROM boot animation sequences.
+                </p>
+
+                {/* Real-time Status Badge */}
+                <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-neutral-100 dark:bg-neutral-900 border border-neutral-200/50 dark:border-neutral-850 font-mono text-[9px] text-neutral-600 dark:text-neutral-400">
+                  <span className="relative flex h-1.5 w-1.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
+                  </span>
+                  <span>NODE: CLIENT_ACTIVE</span>
+                </div>
               </div>
-              <p className="text-xs text-neutral-500 dark:text-neutral-600">
-                A premium, open-source preview dashboard for Android boot animators.
-              </p>
+
+              {/* Col 2: Navigation Links (2.5 cols) */}
+              <div className="md:col-span-2.5 space-y-3">
+                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
+                  Workspace
+                </h4>
+                <ul className="space-y-2 text-xs">
+                  <li>
+                    <Link href="/" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      Presetted Gallery
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/studio" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      Interactive Studio
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/video-to-bootanimation" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      Video Converter
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Col 3: Resources & Docs (2.5 cols) */}
+              <div className="md:col-span-2.5 space-y-3">
+                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
+                  Resources
+                </h4>
+                <ul className="space-y-2 text-xs">
+                  <li>
+                    <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      GitHub Repository
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://source.android.com/devices/bootloader/boot-animations" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      AOSP Bootanim Docs
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Mr-Hasan-Hamid/bootforge/issues" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
+                      Report Bugs
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Col 4: Terminal System Monitor (3 cols) */}
+              <div className="md:col-span-3 space-y-3">
+                <h4 className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 dark:text-neutral-500 font-mono">
+                  System Monitor
+                </h4>
+                <div className="p-3.5 bg-neutral-100 dark:bg-neutral-950 border border-neutral-200/50 dark:border-neutral-900 rounded-xl font-mono text-[9px] space-y-1 text-neutral-500 dark:text-neutral-500 shadow-inner">
+                  <div className="flex justify-between">
+                    <span>SYS_RELEASE</span>
+                    <span className="text-neutral-800 dark:text-neutral-350 font-semibold">v1.1.0</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>PRESETS</span>
+                    <span className="text-neutral-800 dark:text-neutral-350 font-semibold">224 loaded</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>COMPILER</span>
+                    <span className="text-neutral-800 dark:text-neutral-350 font-semibold">client_wasm</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>ZIP_CORE</span>
+                    <span className="text-neutral-800 dark:text-neutral-350 font-semibold">jszip_v3</span>
+                  </div>
+                </div>
+              </div>
+
             </div>
-            <div className="flex gap-6 text-xs text-neutral-400 dark:text-neutral-600">
-              <span>224 Themes Loaded</span>
-              <span>•</span>
-              <span>100% Client-Side Compiler</span>
+
+            {/* Bottom Row */}
+            <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] font-mono text-neutral-400 dark:text-neutral-600">
+              <div>
+                <span>© {new Date().getFullYear()} BootForge. Licensed under MIT.</span>
+              </div>
+              <div className="flex items-center gap-4">
+                <span>100% CLIENT-SIDE PACKAGING</span>
+                <span>•</span>
+                <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="hover:text-black dark:hover:text-white transition-colors">
+                  SOURCE CODE
+                </a>
+              </div>
             </div>
+
           </div>
         </footer>
       </body>
