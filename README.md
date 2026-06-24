@@ -20,15 +20,13 @@ BootForge is a premium, open-source Next.js application designed for Android the
 
 ### 🎬 Featured Boot Animation Showcase
 
-Here is a look at 10 of the best and most popular boot animation presets featured in the BootForge gallery:
+Here is a look at 9 of the best and most popular boot animation presets featured in the BootForge gallery (arranged in a symmetrical 3x3 collage):
 
-| | |
-| :---: | :---: |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG%203D%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Asus ROG 3D** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zelda%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Zelda** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Watch%20Dogs%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Watch Dogs** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Iron%20Man%20Hud%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Iron Man HUD** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Darth%20Vader%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Darth Vader** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cortana%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Cortana (Halo)** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Cube%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Cyber Cube** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Rainbow%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Google Pixel Rainbow** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/IBM%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Retro IBM** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Alienware** |
+| | | |
+| :---: | :---: | :---: |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG%203D%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Asus ROG 3D** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zelda%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Zelda** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Watch%20Dogs%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Watch Dogs** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Iron%20Man%20Hud%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Iron Man HUD** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Darth%20Vader%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Darth Vader** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cortana%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Cortana (Halo)** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Cube%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Cyber Cube** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Rainbow%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Google Pixel Rainbow** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif" width="240" style="border-radius: 8px;" /><br>**Alienware** |
 
 ---
 
