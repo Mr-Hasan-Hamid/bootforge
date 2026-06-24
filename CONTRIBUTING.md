@@ -2,18 +2,20 @@
 
 We love contributions! Whether you want to add a new boot animation preset, optimize the simulation player, or fix a bug in the client-side video converter, here is how you can help.
 
+---
+
 ## How to Add a Presetted Boot Animation
 
-Adding a new boot animation is simple. Contributors do **not** need access to the production Cloudflare R2 bucket; you will build and test everything locally, and the project maintainer will handle the final CDN sync.
+Adding a new boot animation is simple. Contributors do **not** need access to the production Cloudflare R2 bucket. Because heavy binary files (`source-zips/`, `previews/`, and `extracted/`) are excluded from Git to keep the repository lightweight, you will build and test your presets locally and submit the assets via your Pull Request description.
 
-### Step 1: Extract & Generate Previews
+### Step 1: Extract & Generate Previews Locally
 1. Save your custom Android boot animation `.zip` archive inside `source-zips/` (located in the project root directory).
    * Ensure it contains standard part folders (`part0`, `part1`, etc.) and a valid `desc.txt` configuration at the root.
 2. Extract the animation frames and generate the web-optimized GIF preview by running the local script from the project root:
    ```bash
    bash gallery.sh
    ```
-   * This automatically processes the images, creates the preview GIF, and appends a new entry to your local database index.
+   * This automatically processes the images, creates the preview GIF, and appends a new entry to your local database index inside `/web/src/data/animations.json`.
 
 ### Step 2: Test Locally
 1. Run the local Next.js development server:
@@ -21,15 +23,20 @@ Adding a new boot animation is simple. Contributors do **not** need access to th
    cd web
    npm run dev
    ```
-2. Open `http://localhost:3000` in your browser. The app will detect that R2 is not configured locally, fallback to reading your local filesystem folders, and let you test the animation playback simulator locally.
+2. Open `http://localhost:3000` in your browser. The app will detect that R2 is not configured locally, fallback to reading your local filesystem, and let you test the animation playback simulator locally.
 
-### Step 3: Submit Your Pull Request (PR)
-1. Commit the following files to your fork and submit a PR:
-   * The new `.zip` file in `source-zips/`
-   * The generated preview `.gif` file in `previews/`
-   * The generated frames folder in `extracted/`
-   * The updated `web/src/data/animations.json` entry
-2. The project maintainer will verify your PR locally. If accepted, they will run `bash scripts/upload-to-r2.sh` to sync the static assets to the official Cloudflare R2 bucket and merge the changes into production!
+### Step 3: Submit Your Contribution
+Since your local asset folders (`source-zips/`, `previews/`, and `extracted/`) are ignored by Git, you cannot push them directly:
+1. **Commit the Index Entry**:
+   * Commit and push your modified `web/src/data/animations.json` file containing the new entry details (using placeholder URLs).
+2. **Submit raw assets**:
+   * Open a Pull Request (PR) on GitHub.
+   * **For 1-2 animations**: Drag-and-drop the raw `.zip` and `.gif` files directly into the GitHub PR description box as attachments.
+   * **For bulk contributions (e.g. 5+ animations)**: Upload a zip of your previews and source archives to a file-sharing service (like Google Drive, Mega, or Dropbox) and paste the share link in the PR description.
+3. **Maintainer Sync**:
+   * The project maintainer will verify your PR locally. If accepted, they will download your assets, run the sync script (`bash scripts/upload-to-r2.sh`) to upload the assets to the official Cloudflare R2 bucket, and merge your PR into production!
+
+---
 
 ## Code Contribution Workflow
 
