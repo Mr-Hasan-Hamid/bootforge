@@ -18,17 +18,17 @@ BootForge is a premium, open-source Next.js application designed for Android the
 - **WASM Compiler**: Create Android installer ZIPs dynamically without any remote server rendering.
 - **PWA Capabilities**: Fully installable as a progressive web app with progressive offline capabilities.
 
-### 🎬 Animation Showcase (10 Featured Presets)
+### 🎬 Featured Boot Animation Showcase
 
-Here is a quick look at 10 featured Android boot animation presets available in the gallery:
+Here is a look at 10 of the best and most popular boot animation presets featured in the BootForge gallery:
 
 | | |
 | :---: | :---: |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Ring%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Ring** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Shape%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Shape** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Sphere%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Abstract Sphere** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%202%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral 2** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%203%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral 3** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Admiral** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Alienware** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Android%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Android** |
-| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Angular%202%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Angular 2** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Angular%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Angular** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG%203D%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Asus ROG 3D** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zelda%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Zelda** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Watch%20Dogs%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Watch Dogs** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Iron%20Man%20Hud%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Iron Man HUD** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Darth%20Vader%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Darth Vader** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cortana%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Cortana (Halo)** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Cube%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Cyber Cube** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Rainbow%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Google Pixel Rainbow** |
+| <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/IBM%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Retro IBM** | <img src="https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif" width="280" style="border-radius: 8px;" /><br>**Alienware** |
 
 ---
 
