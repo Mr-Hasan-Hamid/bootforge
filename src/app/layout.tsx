@@ -16,6 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://bootforge.vercel.app"),
   title: "BootForge — Android Boot Animation Studio & Gallery",
   description: "Explore 220+ Android boot animations in high-quality previews. Parse desc.txt, adjust speed and loop parameters, download root-ready ZIPs, or create custom boot animations from video — all client-side.",
   keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "GIF Preview", "Android Customization", "BootForge", "flashable zip"],
