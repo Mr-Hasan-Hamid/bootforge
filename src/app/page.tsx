@@ -287,15 +287,43 @@ export default function GalleryPage() {
     setSimActive(true);
 
     try {
-      const res = await fetch(`/api/frames?folder=${encodeURIComponent(selectedAnim.folderName)}`);
-      const result = await res.json();
+      const allFrames: string[] = [];
+      
+      // Auto-extract R2 base URL from animations data to avoid hardcoding or configuration requirements
+      const r2BaseUrl = process.env.NEXT_PUBLIC_R2_BASE_URL || 
+                        (animationsData && animationsData[0]?.zipUrl ? animationsData[0].zipUrl.split("/source-zips/")[0] : "");
 
-      if (result.parts && result.parts.length > 0) {
-        const allFrames: string[] = [];
-        result.parts.forEach((p: { frames: string[] }) => {
-          allFrames.push(...p.frames);
+      if (r2BaseUrl) {
+        // Direct CDN Fetch: Load the manifest directly from Cloudflare R2
+        const folder = encodeURIComponent(selectedAnim.folderName);
+        const manifestUrl = `${r2BaseUrl}/extracted/${folder}/manifest.json`;
+        const res = await fetch(manifestUrl);
+        
+        if (!res.ok) throw new Error(`R2 manifest fetch failed with status: ${res.status}`);
+        
+        const manifest: Record<string, string[]> = await res.json();
+        
+        // Natural sorting helper to order animation parts (part0, part1, etc.)
+        const naturalSort = (a: string, b: string) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+        const sortedParts = Object.entries(manifest).sort(([a], [b]) => naturalSort(a, b));
+        
+        sortedParts.forEach(([partName, files]) => {
+          files.forEach(f => {
+            allFrames.push(`${r2BaseUrl}/extracted/${folder}/${partName}/${f}`);
+          });
         });
+      } else {
+        // Fallback: Local development API route
+        const res = await fetch(`/api/frames?folder=${encodeURIComponent(selectedAnim.folderName)}`);
+        const result = await res.json();
+        if (result.parts && result.parts.length > 0) {
+          result.parts.forEach((p: { frames: string[] }) => {
+            allFrames.push(...p.frames);
+          });
+        }
+      }
 
+      if (allFrames.length > 0) {
         setFrames(allFrames);
 
         const imgPromises = allFrames.map((src) => {
@@ -316,7 +344,34 @@ export default function GalleryPage() {
         setSimActive(false);
       }
     } catch (e) {
-      console.error(e);
+      console.warn("Direct R2 fetch failed, falling back to Vercel API proxy:", e);
+      try {
+        // Failover proxy fallback
+        const res = await fetch(`/api/frames?folder=${encodeURIComponent(selectedAnim.folderName)}`);
+        const result = await res.json();
+        if (result.parts && result.parts.length > 0) {
+          const allFrames: string[] = [];
+          result.parts.forEach((p: { frames: string[] }) => {
+            allFrames.push(...p.frames);
+          });
+          setFrames(allFrames);
+          const imgPromises = allFrames.map((src) => {
+            return new Promise<HTMLImageElement>((resolve, reject) => {
+              const img = new Image();
+              img.onload = () => resolve(img);
+              img.onerror = () => reject();
+              img.src = src;
+            });
+          });
+          const imgs = await Promise.all(imgPromises);
+          setLoadedImages(imgs);
+          setCurrentFrameIndex(0);
+          setIsSimPlaying(true);
+          return;
+        }
+      } catch (fallbackError) {
+        console.error("Vercel API fallback failed:", fallbackError);
+      }
       alert("Failed to load sequential frame files.");
       setSimActive(false);
     } finally {
