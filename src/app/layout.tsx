@@ -72,8 +72,8 @@ export default function RootLayout({
                   <span className="text-cyan-550 dark:text-cyan-400">Forge</span>
                 </span>
               </Link>
-              <div className="h-4 w-px bg-neutral-300 dark:bg-neutral-800" />
-              <nav className="flex items-center gap-5">
+              <div className="hidden md:block h-4 w-px bg-neutral-300 dark:bg-neutral-800" />
+              <nav className="hidden md:flex items-center gap-5">
                 <Link href="/" className="text-xs font-medium text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors">
                   Gallery
                 </Link>
