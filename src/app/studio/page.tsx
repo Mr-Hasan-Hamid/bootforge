@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import JSZip from "jszip";
+import type JSZip from "jszip";
 import Link from "next/link";
 import animationsData from "../../data/animations.json";
 
@@ -93,6 +93,7 @@ export default function StudioPage() {
     cleanupZipPreview();
 
     try {
+      const JSZip = (await import("jszip")).default;
       const zip = await JSZip.loadAsync(fileBlob);
 
       // Check for nested bootanimation.zip (Magisk Module / Flashable ZIP)
@@ -522,6 +523,7 @@ export default function StudioPage() {
       return;
     }
 
+    const JSZip = (await import("jszip")).default;
     const zip = new JSZip();
 
     let frameIndex = 0;

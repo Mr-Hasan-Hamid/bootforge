@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useCallback, RefObject } from "react";
-import JSZip from "jszip";
 import { RESOLUTION_MAP } from "../utils/constants";
 import { fastHash, applySmoothing } from "../utils/frameUtils";
 
@@ -82,6 +81,8 @@ export function useVideoConverter(
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
     if (!ctx) { setProgress(p => ({ ...p, status: "error" })); return; }
 
+    // Load JSZip dynamically to reduce initial page bundle sizes
+    const JSZip = (await import("jszip")).default;
     const zip = new JSZip();
     let frameIdx = 0;
     let time     = startT;
