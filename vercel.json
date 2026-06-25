@@ -1,18 +1,5 @@
 {
   "version": 2,
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "bootforge.vercel.app"
-        }
-      ],
-      "destination": "https://bootanimdeck.vercel.app/:path*",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/api/:path*",
