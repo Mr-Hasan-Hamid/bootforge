@@ -175,22 +175,20 @@ export default function BulkDownloaderPage() {
         )}
       </section>
 
-      {selectedIds.length > 0 && (
-        <BulkStatusBar
-          selectedCount={selectedIds.length}
-          totalCount={animationsData.length}
-          totalSizeFormatted={totalSizeFormatted}
-          downloading={downloading}
-          statusText={statusText}
-          progressPercent={progressPercent}
-          downloadErrors={downloadErrors}
-          onCancel={handleCancelDownload}
-          onClear={handleClearSelection}
-          onDownload={() => handleDownloadBulk(selectedAnimations)}
-        />
-      )}
+      <BulkStatusBar
+        selectedCount={selectedIds.length}
+        totalCount={animationsData.length}
+        totalSizeFormatted={totalSizeFormatted}
+        downloading={downloading}
+        statusText={statusText}
+        progressPercent={progressPercent}
+        downloadErrors={downloadErrors}
+        onCancel={handleCancelDownload}
+        onClear={handleClearSelection}
+        onDownload={() => handleDownloadBulk(selectedAnimations)}
+      />
 
-      <ScrollNavigator />
+      <ScrollNavigator isStatusBarVisible={selectedIds.length > 0} />
     </div>
   );
 }

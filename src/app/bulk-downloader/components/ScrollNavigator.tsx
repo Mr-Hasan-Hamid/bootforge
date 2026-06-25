@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-export function ScrollNavigator() {
+interface ScrollNavigatorProps {
+  isStatusBarVisible?: boolean;
+}
+
+export function ScrollNavigator({ isStatusBarVisible = false }: ScrollNavigatorProps) {
   const [showScrollUp, setShowScrollUp] = useState(false);
   const [showScrollDown, setShowScrollDown] = useState(true);
 
@@ -33,11 +37,15 @@ export function ScrollNavigator() {
   };
 
   return (
-    <div className="fixed bottom-28 right-6 z-45 flex flex-col gap-2.5 animate-[fadeIn_0.3s_ease]">
+    <div
+      className={`fixed right-6 z-45 flex flex-col gap-2.5 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+        isStatusBarVisible ? "bottom-28" : "bottom-6"
+      }`}
+    >
       {showScrollUp && (
         <button
           onClick={scrollToTop}
-          className="w-10 h-10 rounded-full bg-neutral-900/80 dark:bg-black/80 backdrop-blur border border-neutral-800 hover:border-cyan-400 hover:text-cyan-400 text-white flex items-center justify-center transition-all shadow-lg active:scale-95 group"
+          className="w-10 h-10 rounded-full bg-white/90 dark:bg-neutral-900/90 backdrop-blur border border-neutral-200 dark:border-neutral-800 hover:border-cyan-500 dark:hover:border-cyan-400 text-neutral-800 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 flex items-center justify-center transition-all shadow-lg active:scale-95 group"
           aria-label="Scroll to top"
         >
           <svg
@@ -56,7 +64,7 @@ export function ScrollNavigator() {
       {showScrollDown && (
         <button
           onClick={scrollToBottom}
-          className="w-10 h-10 rounded-full bg-neutral-900/80 dark:bg-black/80 backdrop-blur border border-neutral-800 hover:border-cyan-400 hover:text-cyan-400 text-white flex items-center justify-center transition-all shadow-lg active:scale-95 group"
+          className="w-10 h-10 rounded-full bg-white/90 dark:bg-neutral-900/90 backdrop-blur border border-neutral-200 dark:border-neutral-800 hover:border-cyan-500 dark:hover:border-cyan-400 text-neutral-800 dark:text-white hover:text-cyan-600 dark:hover:text-cyan-400 flex items-center justify-center transition-all shadow-lg active:scale-95 group"
           aria-label="Scroll to bottom"
         >
           <svg
