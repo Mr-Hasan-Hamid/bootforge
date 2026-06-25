@@ -16,22 +16,22 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bootforge.vercel.app"),
-  title: "BootForge — Android Boot Animation Studio & Gallery",
+  metadataBase: new URL("https://bootanimdeck.vercel.app"),
+  title: "BootAnimDeck — Android Boot Animation Studio & Gallery",
   description: "Explore 220+ Android boot animations in high-quality previews. Parse desc.txt, adjust speed and loop parameters, download root-ready ZIPs, or create custom boot animations from video — all client-side.",
-  keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "GIF Preview", "Android Customization", "BootForge", "flashable zip"],
+  keywords: ["Android", "Boot Animation", "Gallery", "Custom ROMs", "desc.txt", "GIF Preview", "Android Customization", "BootAnimDeck", "flashable zip"],
   authors: [{ name: "Mr Hasan Hamid", url: "https://19-hasan.vercel.app" }],
   manifest: "/manifest.json",
   openGraph: {
-    title: "BootForge — Android Boot Animation Studio & Gallery",
+    title: "BootAnimDeck — Android Boot Animation Studio & Gallery",
     description: "220+ Android boot animations. Edit parameters, simulate playback, convert video, and download root-ready ZIPs.",
     type: "website",
     locale: "en_US",
-    siteName: "BootForge",
+    siteName: "BootAnimDeck",
   },
   twitter: {
     card: "summary_large_image",
-    title: "BootForge — Android Boot Animation Studio",
+    title: "BootAnimDeck — Android Boot Animation Studio",
     description: "220+ Android boot animations. Edit, simulate, convert & download.",
   },
   robots: {
@@ -68,8 +68,8 @@ export default function RootLayout({
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
                 </svg>
                 <span className="text-sm font-black tracking-tight font-sans text-neutral-900 dark:text-white flex items-center">
-                  <span>Boot</span>
-                  <span className="text-cyan-550 dark:text-cyan-400">Forge</span>
+                  <span>BootAnim</span>
+                  <span className="text-cyan-500 dark:text-cyan-400">Deck</span>
                 </span>
               </Link>
               <div className="hidden md:block h-4 w-px bg-neutral-300 dark:bg-neutral-800" />
@@ -89,7 +89,7 @@ export default function RootLayout({
             
             <div className="flex items-center gap-4">
               <a 
-                href="https://github.com/Mr-Hasan-Hamid/bootforge" 
+                href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="text-neutral-500 dark:text-neutral-400 hover:text-black dark:hover:text-white transition-colors flex items-center justify-center"
@@ -130,8 +130,8 @@ export default function RootLayout({
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
                   </svg>
                   <span className="text-sm font-black tracking-tight text-neutral-950 dark:text-white transition-colors duration-200 group-hover:text-cyan-500 dark:group-hover:text-cyan-450">
-                    <span>Boot</span>
-                    <span className="text-cyan-500 dark:text-cyan-400">Forge</span>
+                    <span>BootAnim</span>
+                    <span className="text-cyan-500 dark:text-cyan-400">Deck</span>
                   </span>
                 </div>
                 
@@ -180,7 +180,7 @@ export default function RootLayout({
                 </h4>
                 <ul className="space-y-2.5 text-xs">
                   <li>
-                    <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
+                    <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
                       GitHub Repository
                     </a>
                   </li>
@@ -190,7 +190,7 @@ export default function RootLayout({
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/Mr-Hasan-Hamid/bootforge/issues" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
+                    <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck/issues" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
                       Report Bugs
                     </a>
                   </li>
@@ -227,7 +227,7 @@ export default function RootLayout({
             {/* Bottom Row */}
             <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] font-mono text-neutral-400 dark:text-neutral-600 w-full border-t border-neutral-200/40 dark:border-neutral-900/50 mt-4">
               <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-                <span>© {new Date().getFullYear()} BootForge. Licensed under MIT.</span>
+                <span>© {new Date().getFullYear()} BootAnimDeck. Licensed under MIT.</span>
                 <span className="hidden sm:inline">•</span>
                 <span>
                   Built by{" "}
@@ -245,7 +245,7 @@ export default function RootLayout({
                   INSTAGRAM
                 </a>
                 <span>•</span>
-                <a href="https://github.com/Mr-Hasan-Hamid/bootforge" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+                <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
                   SOURCE CODE
                 </a>
               </div>

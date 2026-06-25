@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Fallback to the production domain. The user can customize this or define NEXT_PUBLIC_SITE_URL in .env
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bootforge.vercel.app";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bootanimdeck.vercel.app";
 
   return [
     {

@@ -1,4 +1,4 @@
-# Contributing to BootForge
+# Contributing to BootAnimDeck
 
 We love contributions! Whether you want to add a new boot animation preset, optimize the simulation player, or fix a bug in the client-side video converter, here is how you can help.
 
@@ -46,4 +46,5 @@ Since your local asset folders (`source-zips/`, `previews/`, and `extracted/`) a
 4. Ensure files format correctly: lint checks should pass cleanly.
 5. Create a pull request explaining your changes.
 
-Thanks for keeping BootForge the best boot animation toolkit on the web!
+Thanks for keeping BootAnimDeck the best boot animation toolkit on the web!
+

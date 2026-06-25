@@ -1,12 +1,12 @@
-# 🛸 BootForge - The Custom Android Boot Collection 
+# 🛸 BootAnimDeck - The Custom Android Boot Collection 
 
 > The ultimate workspace & asset directory for Android system boot animations.
 
 <div align="center">
-  <img src="public/screenshot.png" alt="BootForge Platform Screenshot" width="800" style="border-radius: 12px; border: 1px solid rgba(120,120,120,0.2); box-shadow: 0 4px 30px rgba(0,0,0,0.2);" />
+  <img src="public/screenshot.png" alt="BootAnimDeck Platform Screenshot" width="800" style="border-radius: 12px; border: 1px solid rgba(120,120,120,0.2); box-shadow: 0 4px 30px rgba(0,0,0,0.2);" />
 </div>
 
-BootForge is a premium, open-source Next.js application designed for Android theme developers and custom ROM enthusiasts. It allows you to browse 220+ boot screen presets, customize loop dynamics, simulate playback frame-by-frame, and convert MP4/WebM videos directly into flashable, root-ready installer ZIPs client-side.
+BootAnimDeck is a premium, open-source Next.js application designed for Android theme developers and custom ROM enthusiasts. It allows you to browse 220+ boot screen presets, customize loop dynamics, simulate playback frame-by-frame, and convert MP4/WebM videos directly into flashable, root-ready installer ZIPs client-side.
 
 ---
 
@@ -20,7 +20,7 @@ BootForge is a premium, open-source Next.js application designed for Android the
 
 ### 🎬 Featured Boot Animation Showcase
 
-Here is a look at 9 of the best and most popular boot animation presets featured in the BootForge gallery (arranged in a symmetrical 3x3 collage):
+Here is a look at 9 of the best and most popular boot animation presets featured in the BootAnimDeck gallery (arranged in a symmetrical 3x3 collage):
 
 | | | |
 | :---: | :---: | :---: |
@@ -43,7 +43,7 @@ Here is a look at 9 of the best and most popular boot animation presets featured
 
 ## ⚡ Multi-Layer Caching System
 
-To achieve blazing-fast speeds globally, BootForge implements a 4-tier caching architecture:
+To achieve blazing-fast speeds globally, BootAnimDeck implements a 4-tier caching architecture:
 
 1. **Vercel Edge Network Cache**: pre-rendered HTML static pages served from the nearest edge node.
 2. **Cloudflare CDN Cache**: R2 assets (GIFs, PNGs, ZIPs) served with `public, max-age=31536000, immutable` headers.
@@ -57,8 +57,8 @@ To achieve blazing-fast speeds globally, BootForge implements a 4-tier caching a
 ### 1. Clone the Code
 
 ```bash
-git clone https://github.com/Mr-Hasan-Hamid/bootforge.git
-cd bootforge
+git clone https://github.com/Mr-Hasan-Hamid/bootanimdeck.git
+cd bootanimdeck
 ```
 
 ### 2. Configure Environment Variables
