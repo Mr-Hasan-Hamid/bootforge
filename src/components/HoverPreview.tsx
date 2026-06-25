@@ -58,9 +58,9 @@ export function HoverPreview({
           autoPlay
           onPlay={() => setMediaLoaded(true)}
           onError={() => setUseFallback(true)}
-          className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 group-hover:scale-102 ${
-            mediaLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-          }`}
+          className={`absolute inset-0 w-full h-full transition-all duration-300 group-hover:scale-102 ${
+            objectCover ? "object-cover" : "object-contain"
+          } ${mediaLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
         />
       )}
 

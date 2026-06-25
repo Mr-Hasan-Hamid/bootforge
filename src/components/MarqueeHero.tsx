@@ -65,9 +65,9 @@ export function MarqueeHero({ animations, onSelectAnimation }: MarqueeHeroProps)
             <div 
               key={`${item.id}-c1-${idx}`}
               onClick={() => onSelectAnimation(item)}
-              className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
+              className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-black border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
+              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>
@@ -85,9 +85,9 @@ export function MarqueeHero({ animations, onSelectAnimation }: MarqueeHeroProps)
             <div 
               key={`${item.id}-c2-${idx}`}
               onClick={() => onSelectAnimation(item)}
-              className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
+              className="w-[calc(20vw-10px)] min-w-[120px] aspect-square shrink-0 bg-black border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden relative group cursor-pointer hover:scale-[1.02] transition-transform duration-200 shadow-sm"
             >
-              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} objectCover={true} />
+              <HoverPreview gifUrl={item.gifUrl} coverUrl={item.coverUrl} alt={item.name} />
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2 font-sans pointer-events-none">
                 <span className="text-[9px] font-semibold text-white font-mono line-clamp-1">{item.name}</span>
               </div>
