@@ -1,6 +1,6 @@
 {
-  "name": "BootForge - Boot Animation Studio",
-  "short_name": "BootForge",
+  "name": "BootAnimDeck - Boot Animation Studio",
+  "short_name": "BootAnimDeck",
   "description": "Explore 220+ Android boot animations, edit parameters, and create custom boot animations",
   "start_url": "/",
   "display": "standalone",
