@@ -104,76 +104,78 @@ export default function BulkDownloaderPage() {
   }, [totalBytes]);
 
   return (
-    <div className="fade-in bg-white dark:bg-black text-black dark:text-white min-h-screen">
-      <BulkDownloaderHeader />
+    <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen">
+      <div className="fade-in">
+        <BulkDownloaderHeader />
 
-      <section className="mx-auto max-w-7xl px-6 py-10 pb-36 font-mono">
-        <div className="flex flex-col md:flex-row gap-4 mb-8 justify-between items-stretch md:items-center">
-          <div className="relative flex-grow max-w-md">
-            <input
-              type="text"
-              placeholder="Filter by name or resolution..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              className="w-full bg-neutral-55 dark:bg-neutral-900 border border-neutral-250 dark:border-neutral-800 rounded-xl px-4 py-2.5 text-xs text-neutral-850 dark:text-white placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none focus:border-cyan-500 dark:focus:border-cyan-600 transition-colors"
+        <section className="mx-auto max-w-7xl px-6 py-10 pb-36 font-mono">
+          <div className="flex flex-col md:flex-row gap-4 mb-8 justify-between items-stretch md:items-center">
+            <div className="relative flex-grow max-w-md">
+              <input
+                type="text"
+                placeholder="Filter by name or resolution..."
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                className="w-full bg-neutral-55 dark:bg-neutral-900 border border-neutral-250 dark:border-neutral-800 rounded-xl px-4 py-2.5 text-xs text-neutral-850 dark:text-white placeholder-neutral-400 dark:placeholder-neutral-500 focus:outline-none focus:border-cyan-500 dark:focus:border-cyan-600 transition-colors"
+              />
+              {search && (
+                <button
+                  onClick={() => setSearch("")}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 font-mono text-[10px]"
+                >
+                  CLEAR
+                </button>
+              )}
+            </div>
+
+            <SelectionControls
+              matchingCount={processedAnimations.length}
+              selectedCount={selectedIds.length}
+              onSelectAll={handleSelectAllMatching}
+              onInvert={handleInvertSelection}
+              onClear={handleClearSelection}
             />
-            {search && (
-              <button
-                onClick={() => setSearch("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 font-mono text-[10px]"
+          </div>
+
+          <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-8 border-b border-neutral-100 dark:border-neutral-900 scrollbar-none">
+            {categories.map((cat) => (
+              <ShimmerButton
+                key={cat}
+                active={activeCategory === cat}
+                onClick={() => setActiveCategory(cat)}
               >
-                CLEAR
-              </button>
-            )}
-          </div>
-
-          <SelectionControls
-            matchingCount={processedAnimations.length}
-            selectedCount={selectedIds.length}
-            onSelectAll={handleSelectAllMatching}
-            onInvert={handleInvertSelection}
-            onClear={handleClearSelection}
-          />
-        </div>
-
-        <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-8 border-b border-neutral-100 dark:border-neutral-900 scrollbar-none">
-          {categories.map((cat) => (
-            <ShimmerButton
-              key={cat}
-              active={activeCategory === cat}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {cat}
-            </ShimmerButton>
-          ))}
-        </div>
-
-        {!mounted ? (
-          <div className="card-grid">
-            {Array.from({ length: 12 }).map((_, idx) => (
-              <div
-                key={`ske-${idx}`}
-                className="bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-900 rounded-2xl overflow-hidden aspect-[4/3.5] animate-pulse"
-              />
+                {cat}
+              </ShimmerButton>
             ))}
           </div>
-        ) : processedAnimations.length > 0 ? (
-          <div className="card-grid">
-            {processedAnimations.map((anim) => (
-              <BulkAnimationCard
-                key={anim.id}
-                anim={anim}
-                isChecked={selectedIds.includes(anim.id)}
-                onToggleSelect={handleToggleSelect}
-              />
-            ))}
-          </div>
-        ) : (
-          <div className="text-center py-20 border border-dashed border-neutral-200 dark:border-neutral-850 rounded-2xl">
-            <p className="text-xs text-neutral-400 font-mono">No matching boot animations found.</p>
-          </div>
-        )}
-      </section>
+
+          {!mounted ? (
+            <div className="card-grid">
+              {Array.from({ length: 12 }).map((_, idx) => (
+                <div
+                  key={`ske-${idx}`}
+                  className="bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-900 rounded-2xl overflow-hidden aspect-[4/3.5] animate-pulse"
+                />
+              ))}
+            </div>
+          ) : processedAnimations.length > 0 ? (
+            <div className="card-grid">
+              {processedAnimations.map((anim) => (
+                <BulkAnimationCard
+                  key={anim.id}
+                  anim={anim}
+                  isChecked={selectedIds.includes(anim.id)}
+                  onToggleSelect={handleToggleSelect}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-20 border border-dashed border-neutral-200 dark:border-neutral-850 rounded-2xl">
+              <p className="text-xs text-neutral-400 font-mono">No matching boot animations found.</p>
+            </div>
+          )}
+        </section>
+      </div>
 
       <BulkStatusBar
         selectedCount={selectedIds.length}
