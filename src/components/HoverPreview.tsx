@@ -56,7 +56,8 @@ export function HoverPreview({
           muted
           playsInline
           autoPlay
-          onPlay={() => setMediaLoaded(true)}
+          preload="metadata"
+          onCanPlay={() => setMediaLoaded(true)}
           onError={() => setUseFallback(true)}
           className={`absolute inset-0 w-full h-full transition-all duration-300 group-hover:scale-102 ${
             objectCover ? "object-cover" : "object-contain"
