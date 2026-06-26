@@ -1,8 +1,26 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import TerminalMock from "./TerminalMock";
 
 export function OnDeviceTab() {
+  const [copied, setCopied] = useState(false);
+  const [origin, setOrigin] = useState("https://bootanimdeck.vercel.app");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setOrigin(window.location.origin);
+    }
+  }, []);
+
+  const fullCommand = `pkg install tsu curl -y && tsu -c "curl -sL ${origin}/install_local.sh -o /sdcard/Download/install_local.sh && cd /sdcard/Download && sh install_local.sh"`;
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(fullCommand);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   const termuxCommands = [
     {
       cmd: "pkg install tsu -y",
@@ -74,6 +92,52 @@ export function OnDeviceTab() {
           <p>
             If you want to manually copy the boot animation directly to the root files directory without installing an entire Magisk module, you can run our local helper script in <strong className="text-neutral-900 dark:text-white font-semibold">Termux</strong>.
           </p>
+
+          {/* Copyable Unified Command Block */}
+          <div className="space-y-3 bg-neutral-950 border border-neutral-800 p-5 rounded-xl">
+            <div className="flex justify-between items-center">
+              <h4 className="text-[10px] font-bold tracking-wider text-cyan-400 font-mono uppercase">
+                🚀 One-line Installer Command
+              </h4>
+              <button
+                onClick={copyToClipboard}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[10px] font-mono font-bold transition-all border ${
+                  copied
+                    ? "bg-emerald-500/10 border-emerald-500/30 text-emerald-400"
+                    : "bg-white/5 border-white/10 hover:bg-white/10 text-neutral-350 hover:text-white"
+                }`}
+              >
+                {copied ? (
+                  <>
+                    <svg className="w-3.5 h-3.5 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2.5">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>COPIED!</span>
+                  </>
+                ) : (
+                  <>
+                    <svg className="w-3.5 h-3.5 animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                    </svg>
+                    <span>COPY COMMAND</span>
+                  </>
+                )}
+              </button>
+            </div>
+            <div className="relative">
+              <pre className="text-[10px] font-mono bg-neutral-900 border border-neutral-850 p-4 rounded-lg overflow-x-auto text-neutral-300 select-all whitespace-pre-wrap break-all leading-relaxed">
+                {fullCommand}
+              </pre>
+            </div>
+            <p className="text-[10px] text-neutral-500 leading-normal">
+              💡 <strong className="text-neutral-450">What this does:</strong> Installs <code className="px-1 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-300 font-semibold font-mono">tsu</code> (root wrapper) and <code className="px-1 py-0.5 rounded bg-neutral-900 border border-neutral-800 text-neutral-300 font-semibold font-mono">curl</code>, downloads the latest helper script to storage, switches to a root shell, and immediately executes it to apply your new boot animation.
+            </p>
+          </div>
+
+          <p className="text-xs text-neutral-600 dark:text-neutral-450 mt-4">
+            Below is the full dry-run simulation of what the command does when executing the script under the root wrap:
+          </p>
+
           <TerminalMock
             title="Termux Terminal - root@android"
             promptUser="termux"

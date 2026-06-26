@@ -79,7 +79,7 @@ export default function GalleryPage() {
     return SORT_OPTIONS.find((opt) => opt.value === sortBy)?.label || "Sort";
   }, [sortBy]);
 
-  const categories = ["All", "Google", "Brand & Gaming", "Sci-Fi & Tech", "Minimalist", "Abstract"];
+  const categories = ["All", "Google", "Brand & Gaming", "Sci-Fi & Tech", "Anime", "Minimalist", "Abstract"];
 
   return (
     <>

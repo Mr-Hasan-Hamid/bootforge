@@ -1,5 +1,14 @@
 export const categorise = (name: string): string => {
   const n = name.toLowerCase();
+  if (
+    n.includes("goku") || n.includes("sharingan") || n.includes("anime") ||
+    n.includes("sakura") || n.includes("zenitsu") || n.includes("demon slayer") ||
+    n.includes("makima") || n.includes("naruto") || n.includes("tanjiro") ||
+    n.includes("mahoraga") || n.includes("chainsaw man") || n.includes("reze") ||
+    n.includes("arlecchino") || n.includes("sakamoto days") || n.includes("osaragi") ||
+    n.includes("soul eater") || n.includes("deadpool") || n.includes("devil eye")
+  )
+    return "Anime";
   if (n.includes("google") || n.includes("pixel")) return "Google";
   if (
     n.includes("rog") || n.includes("alienware") || n.includes("apple") ||

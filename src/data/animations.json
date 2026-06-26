@@ -1,5 +1,27 @@
 [
   {
+    "id": "abstract-neon-glow-bootanimation",
+    "folderName": "Abstract Neon Glow bootanimation",
+    "name": "Abstract Neon Glow",
+    "width": 720,
+    "height": 1560,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 25133991,
+    "sizeFormatted": "23.97 MB",
+    "zipName": "Abstract Neon Glow bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Abstract%20Neon%20Glow%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Neon%20Glow%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Abstract%20Neon%20Glow%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
     "id": "abstract-ring-bootanimation",
     "folderName": "Abstract Ring bootanimation",
     "name": "Abstract Ring",
@@ -14,7 +36,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3681181,
+    "sizeBytes": 3677995,
     "sizeFormatted": "3.51 MB",
     "zipName": "Abstract Ring bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Abstract%20Ring%20bootanimation.zip",
@@ -36,8 +58,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5901509,
-    "sizeFormatted": "5.63 MB",
+    "sizeBytes": 5894795,
+    "sizeFormatted": "5.62 MB",
     "zipName": "Abstract Shape bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Abstract%20Shape%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Abstract%20Shape%20bootanimation.gif",
@@ -58,7 +80,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2227115,
+    "sizeBytes": 2222561,
     "sizeFormatted": "2.12 MB",
     "zipName": "Abstract Sphere bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Abstract%20Sphere%20bootanimation.zip",
@@ -80,8 +102,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 837101,
-    "sizeFormatted": "817.48 KB",
+    "sizeBytes": 833411,
+    "sizeFormatted": "813.88 KB",
     "zipName": "Admiral 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Admiral%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%202%20bootanimation.gif",
@@ -102,8 +124,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1018628,
-    "sizeFormatted": "994.75 KB",
+    "sizeBytes": 1014938,
+    "sizeFormatted": "991.15 KB",
     "zipName": "Admiral 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Admiral%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Admiral%203%20bootanimation.gif",
@@ -124,7 +146,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1209537,
+    "sizeBytes": 1205847,
     "sizeFormatted": "1.15 MB",
     "zipName": "Admiral bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Admiral%20bootanimation.zip",
@@ -152,8 +174,8 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 5741765,
-    "sizeFormatted": "5.48 MB",
+    "sizeBytes": 5736186,
+    "sizeFormatted": "5.47 MB",
     "zipName": "Alienware bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Alienware%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Alienware%20bootanimation.gif",
@@ -174,7 +196,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1062963,
+    "sizeBytes": 1056177,
     "sizeFormatted": "1.01 MB",
     "zipName": "Android bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Android%20bootanimation.zip",
@@ -196,7 +218,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1081054,
+    "sizeBytes": 1078660,
     "sizeFormatted": "1.03 MB",
     "zipName": "Angular 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Angular%202%20bootanimation.zip",
@@ -218,12 +240,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1114084,
+    "sizeBytes": 1109458,
     "sizeFormatted": "1.06 MB",
     "zipName": "Angular bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Angular%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Angular%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Angular%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "anime-wallpaper-android-4k-bootanimation",
+    "folderName": "Anime Wallpaper Android 4K bootanimation",
+    "name": "Anime Wallpaper Android 4K",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3184734,
+    "sizeFormatted": "3.04 MB",
+    "zipName": "Anime Wallpaper Android 4K bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Anime%20Wallpaper%20Android%204K%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Anime%20Wallpaper%20Android%204K%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Anime%20Wallpaper%20Android%204K%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "apex-bootanimation",
@@ -240,8 +284,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 752964,
-    "sizeFormatted": "735.32 KB",
+    "sizeBytes": 750930,
+    "sizeFormatted": "733.33 KB",
     "zipName": "Apex bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Apex%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Apex%20bootanimation.gif",
@@ -262,12 +306,56 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1772558,
+    "sizeBytes": 1769228,
     "sizeFormatted": "1.69 MB",
     "zipName": "Apple bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Apple%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Apple%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Apple%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "arasaka-corp-brainlink-terminal-bootanimation",
+    "folderName": "Arasaka Corp Brainlink Terminal bootanimation",
+    "name": "Arasaka Corp Brainlink Terminal",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4549365,
+    "sizeFormatted": "4.34 MB",
+    "zipName": "Arasaka Corp Brainlink Terminal bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Arasaka%20Corp%20Brainlink%20Terminal%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Arasaka%20Corp%20Brainlink%20Terminal%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Arasaka%20Corp%20Brainlink%20Terminal%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "arlecchino-x-diamonds-bootanimation",
+    "folderName": "Arlecchino x Diamonds bootanimation",
+    "name": "Arlecchino x Diamonds",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 19658127,
+    "sizeFormatted": "18.75 MB",
+    "zipName": "Arlecchino x Diamonds bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Arlecchino%20x%20Diamonds%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Arlecchino%20x%20Diamonds%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Arlecchino%20x%20Diamonds%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "atom-2-bootanimation",
@@ -284,8 +372,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3929725,
-    "sizeFormatted": "3.75 MB",
+    "sizeBytes": 3913003,
+    "sizeFormatted": "3.73 MB",
     "zipName": "Atom 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Atom%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Atom%202%20bootanimation.gif",
@@ -306,8 +394,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4240173,
-    "sizeFormatted": "4.04 MB",
+    "sizeBytes": 4223883,
+    "sizeFormatted": "4.03 MB",
     "zipName": "Atom bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Atom%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Atom%20bootanimation.gif",
@@ -328,8 +416,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4089341,
-    "sizeFormatted": "3.9 MB",
+    "sizeBytes": 4082699,
+    "sizeFormatted": "3.89 MB",
     "zipName": "BB 9E bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/BB%209E%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/BB%209E%20bootanimation.gif",
@@ -350,8 +438,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 463817,
-    "sizeFormatted": "452.95 KB",
+    "sizeBytes": 457535,
+    "sizeFormatted": "446.81 KB",
     "zipName": "Baseball bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Baseball%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Baseball%20bootanimation.gif",
@@ -372,8 +460,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3292883,
-    "sizeFormatted": "3.14 MB",
+    "sizeBytes": 3281777,
+    "sizeFormatted": "3.13 MB",
     "zipName": "Basic Marshmallow bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Basic%20Marshmallow%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Basic%20Marshmallow%20bootanimation.gif",
@@ -394,7 +482,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2067994,
+    "sizeBytes": 2063728,
     "sizeFormatted": "1.97 MB",
     "zipName": "Bat bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Bat%20bootanimation.zip",
@@ -416,8 +504,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1883036,
-    "sizeFormatted": "1.8 MB",
+    "sizeBytes": 1876322,
+    "sizeFormatted": "1.79 MB",
     "zipName": "Bend bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Bend%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Bend%20bootanimation.gif",
@@ -438,8 +526,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5136929,
-    "sizeFormatted": "4.9 MB",
+    "sizeBytes": 5129135,
+    "sizeFormatted": "4.89 MB",
     "zipName": "Biker bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Biker%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Biker%20bootanimation.gif",
@@ -460,8 +548,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 951217,
-    "sizeFormatted": "928.92 KB",
+    "sizeBytes": 939175,
+    "sizeFormatted": "917.16 KB",
     "zipName": "Black Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Black%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Black%20Hud%20bootanimation.gif",
@@ -482,8 +570,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7781908,
-    "sizeFormatted": "7.42 MB",
+    "sizeBytes": 7770154,
+    "sizeFormatted": "7.41 MB",
     "zipName": "Black Planet bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Black%20Planet%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Black%20Planet%20bootanimation.gif",
@@ -492,7 +580,7 @@
   {
     "id": "blackhole-1080p-30fps-",
     "folderName": "BlackHole_(1080p)(30FPS)",
-    "name": "BlackHole_(1080p)(30FPS)",
+    "name": "Black Hole 1080p",
     "width": 1080,
     "height": 600,
     "fps": 30,
@@ -512,6 +600,28 @@
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/BlackHole_(1080p)(30FPS)/part0/BlackHole_00000.jpg"
   },
   {
+    "id": "blackboard-math-sketch-bootanimation",
+    "folderName": "Blackboard Math Sketch bootanimation",
+    "name": "Blackboard Math Sketch",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6878324,
+    "sizeFormatted": "6.56 MB",
+    "zipName": "Blackboard Math Sketch bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blackboard%20Math%20Sketch%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blackboard%20Math%20Sketch%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Blackboard%20Math%20Sketch%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
     "id": "blink-bootanimation",
     "folderName": "Blink bootanimation",
     "name": "Blink",
@@ -526,8 +636,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1651580,
-    "sizeFormatted": "1.58 MB",
+    "sizeBytes": 1645946,
+    "sizeFormatted": "1.57 MB",
     "zipName": "Blink bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blink%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blink%20bootanimation.gif",
@@ -548,8 +658,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 604517,
-    "sizeFormatted": "590.35 KB",
+    "sizeBytes": 599387,
+    "sizeFormatted": "585.34 KB",
     "zipName": "Blockchain Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blockchain%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blockchain%20Loader%20bootanimation.gif",
@@ -570,8 +680,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1711546,
-    "sizeFormatted": "1.63 MB",
+    "sizeBytes": 1702312,
+    "sizeFormatted": "1.62 MB",
     "zipName": "Blocks bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blocks%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blocks%20bootanimation.gif",
@@ -592,8 +702,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 413867,
-    "sizeFormatted": "404.17 KB",
+    "sizeBytes": 412121,
+    "sizeFormatted": "402.46 KB",
     "zipName": "Blue DNA bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blue%20DNA%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blue%20DNA%20bootanimation.gif",
@@ -614,8 +724,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3813404,
-    "sizeFormatted": "3.64 MB",
+    "sizeBytes": 3809570,
+    "sizeFormatted": "3.63 MB",
     "zipName": "Blue Globe bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Blue%20Globe%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Blue%20Globe%20bootanimation.gif",
@@ -636,8 +746,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 297575,
-    "sizeFormatted": "290.6 KB",
+    "sizeBytes": 292949,
+    "sizeFormatted": "286.08 KB",
     "zipName": "Box Explosion bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Box%20Explosion%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Box%20Explosion%20bootanimation.gif",
@@ -658,8 +768,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 460863,
-    "sizeFormatted": "450.06 KB",
+    "sizeBytes": 456741,
+    "sizeFormatted": "446.04 KB",
     "zipName": "Box Loading bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Box%20Loading%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Box%20Loading%20bootanimation.gif",
@@ -680,8 +790,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 900112,
-    "sizeFormatted": "879.02 KB",
+    "sizeBytes": 892462,
+    "sizeFormatted": "871.54 KB",
     "zipName": "Bubble bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Bubble%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Bubble%20bootanimation.gif",
@@ -702,8 +812,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 911302,
-    "sizeFormatted": "889.94 KB",
+    "sizeBytes": 901996,
+    "sizeFormatted": "880.86 KB",
     "zipName": "Bubbles bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Bubbles%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Bubbles%20bootanimation.gif",
@@ -724,7 +834,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2918439,
+    "sizeBytes": 2912229,
     "sizeFormatted": "2.78 MB",
     "zipName": "Bug Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Bug%20Loader%20bootanimation.zip",
@@ -746,8 +856,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6688343,
-    "sizeFormatted": "6.38 MB",
+    "sizeBytes": 6683789,
+    "sizeFormatted": "6.37 MB",
     "zipName": "Cardan 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cardan%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cardan%202%20bootanimation.gif",
@@ -768,7 +878,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6945090,
+    "sizeBytes": 6940536,
     "sizeFormatted": "6.62 MB",
     "zipName": "Cardan bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cardan%20bootanimation.zip",
@@ -790,12 +900,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1364709,
+    "sizeBytes": 1361091,
     "sizeFormatted": "1.3 MB",
     "zipName": "Carrum bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Carrum%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Carrum%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Carrum%20bootanimation/part0/001.png"
+  },
+  {
+    "id": "cartoon-hands-sketch-bootanimation",
+    "folderName": "Cartoon Hands Sketch bootanimation",
+    "name": "Cartoon Hands Sketch",
+    "width": 720,
+    "height": 960,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3575806,
+    "sizeFormatted": "3.41 MB",
+    "zipName": "Cartoon Hands Sketch bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cartoon%20Hands%20Sketch%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cartoon%20Hands%20Sketch%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cartoon%20Hands%20Sketch%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "chrome-bootanimation",
@@ -812,8 +944,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1301027,
-    "sizeFormatted": "1.24 MB",
+    "sizeBytes": 1290353,
+    "sizeFormatted": "1.23 MB",
     "zipName": "Chrome bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Chrome%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Chrome%20bootanimation.gif",
@@ -840,8 +972,8 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 13431821,
-    "sizeFormatted": "12.81 MB",
+    "sizeBytes": 13422498,
+    "sizeFormatted": "12.8 MB",
     "zipName": "Circle 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circle%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Circle%202%20bootanimation.gif",
@@ -862,8 +994,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1814014,
-    "sizeFormatted": "1.73 MB",
+    "sizeBytes": 1806292,
+    "sizeFormatted": "1.72 MB",
     "zipName": "Circle 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circle%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Circle%203%20bootanimation.gif",
@@ -884,8 +1016,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 922335,
-    "sizeFormatted": "900.72 KB",
+    "sizeBytes": 916917,
+    "sizeFormatted": "895.43 KB",
     "zipName": "Circle Flow bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circle%20Flow%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Circle%20Flow%20bootanimation.gif",
@@ -906,8 +1038,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 782421,
-    "sizeFormatted": "764.08 KB",
+    "sizeBytes": 770955,
+    "sizeFormatted": "752.89 KB",
     "zipName": "Circle Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circle%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Circle%20Hud%20bootanimation.gif",
@@ -928,8 +1060,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2125306,
-    "sizeFormatted": "2.03 MB",
+    "sizeBytes": 2117800,
+    "sizeFormatted": "2.02 MB",
     "zipName": "Circle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circle%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Circle%20bootanimation.gif",
@@ -950,7 +1082,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 12189674,
+    "sizeBytes": 12182528,
     "sizeFormatted": "11.62 MB",
     "zipName": "Circuit bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Circuit%20bootanimation.zip",
@@ -972,8 +1104,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2829318,
-    "sizeFormatted": "2.7 MB",
+    "sizeBytes": 2817708,
+    "sizeFormatted": "2.69 MB",
     "zipName": "Colored Squares bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colored%20Squares%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colored%20Squares%20bootanimation.gif",
@@ -994,8 +1126,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1525983,
-    "sizeFormatted": "1.46 MB",
+    "sizeBytes": 1522869,
+    "sizeFormatted": "1.45 MB",
     "zipName": "Colorful 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%202%20bootanimation.gif",
@@ -1016,8 +1148,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4743911,
-    "sizeFormatted": "4.52 MB",
+    "sizeBytes": 4716677,
+    "sizeFormatted": "4.5 MB",
     "zipName": "Colorful 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%203%20bootanimation.gif",
@@ -1038,7 +1170,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1574229,
+    "sizeBytes": 1569387,
     "sizeFormatted": "1.5 MB",
     "zipName": "Colorful Helix bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Helix%20bootanimation.zip",
@@ -1060,8 +1192,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2721389,
-    "sizeFormatted": "2.6 MB",
+    "sizeBytes": 2706755,
+    "sizeFormatted": "2.58 MB",
     "zipName": "Colorful Hive bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Hive%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%20Hive%20bootanimation.gif",
@@ -1082,8 +1214,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2243686,
-    "sizeFormatted": "2.14 MB",
+    "sizeBytes": 2237044,
+    "sizeFormatted": "2.13 MB",
     "zipName": "Colorful Load bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Load%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%20Load%20bootanimation.gif",
@@ -1104,8 +1236,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 638425,
-    "sizeFormatted": "623.46 KB",
+    "sizeBytes": 631783,
+    "sizeFormatted": "616.98 KB",
     "zipName": "Colorful Loop bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Loop%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%20Loop%20bootanimation.gif",
@@ -1126,8 +1258,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4120152,
-    "sizeFormatted": "3.93 MB",
+    "sizeBytes": 4111278,
+    "sizeFormatted": "3.92 MB",
     "zipName": "Colorful Sliced bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Sliced%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%20Sliced%20bootanimation.gif",
@@ -1148,7 +1280,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4481262,
+    "sizeBytes": 4475412,
     "sizeFormatted": "4.27 MB",
     "zipName": "Colorful Waves bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20Waves%20bootanimation.zip",
@@ -1170,8 +1302,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 516745,
-    "sizeFormatted": "504.63 KB",
+    "sizeBytes": 513055,
+    "sizeFormatted": "501.03 KB",
     "zipName": "Colorful bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colorful%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colorful%20bootanimation.gif",
@@ -1192,8 +1324,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6486574,
-    "sizeFormatted": "6.19 MB",
+    "sizeBytes": 6475540,
+    "sizeFormatted": "6.18 MB",
     "zipName": "Colossal bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Colossal%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Colossal%20bootanimation.gif",
@@ -1214,8 +1346,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 828398,
-    "sizeFormatted": "808.98 KB",
+    "sizeBytes": 821252,
+    "sizeFormatted": "802 KB",
     "zipName": "Comet bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Comet%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Comet%20bootanimation.gif",
@@ -1236,8 +1368,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2224808,
-    "sizeFormatted": "2.12 MB",
+    "sizeBytes": 2215934,
+    "sizeFormatted": "2.11 MB",
     "zipName": "Connect bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Connect%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Connect%20bootanimation.gif",
@@ -1258,8 +1390,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4536765,
-    "sizeFormatted": "4.33 MB",
+    "sizeBytes": 4519899,
+    "sizeFormatted": "4.31 MB",
     "zipName": "Cortana bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cortana%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cortana%20bootanimation.gif",
@@ -1280,8 +1412,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 405004,
-    "sizeFormatted": "395.51 KB",
+    "sizeBytes": 389650,
+    "sizeFormatted": "380.52 KB",
     "zipName": "Cross Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cross%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cross%20Hud%20bootanimation.gif",
@@ -1302,8 +1434,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3269210,
-    "sizeFormatted": "3.12 MB",
+    "sizeBytes": 3264368,
+    "sizeFormatted": "3.11 MB",
     "zipName": "Crosses bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Crosses%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Crosses%20bootanimation.gif",
@@ -1324,8 +1456,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1025542,
-    "sizeFormatted": "1001.51 KB",
+    "sizeBytes": 1019476,
+    "sizeFormatted": "995.58 KB",
     "zipName": "Cubes bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cubes%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cubes%20bootanimation.gif",
@@ -1346,8 +1478,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 184915,
-    "sizeFormatted": "180.58 KB",
+    "sizeBytes": 181729,
+    "sizeFormatted": "177.47 KB",
     "zipName": "Cuts 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cuts%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cuts%202%20bootanimation.gif",
@@ -1368,8 +1500,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 146840,
-    "sizeFormatted": "143.4 KB",
+    "sizeBytes": 142070,
+    "sizeFormatted": "138.74 KB",
     "zipName": "Cuts bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cuts%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cuts%20bootanimation.gif",
@@ -1390,8 +1522,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 284865,
-    "sizeFormatted": "278.19 KB",
+    "sizeBytes": 282327,
+    "sizeFormatted": "275.71 KB",
     "zipName": "Cyan bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyan%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyan%20bootanimation.gif",
@@ -1412,7 +1544,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4669346,
+    "sizeBytes": 4667384,
     "sizeFormatted": "4.45 MB",
     "zipName": "Cyanide bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyanide%20bootanimation.zip",
@@ -1434,12 +1566,56 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 11219209,
-    "sizeFormatted": "10.7 MB",
+    "sizeBytes": 11210479,
+    "sizeFormatted": "10.69 MB",
     "zipName": "Cyber Cube bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyber%20Cube%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Cube%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cyber%20Cube%20bootanimation/part0/frame_000_delay-0.05s.png"
+  },
+  {
+    "id": "cyber-neon-frame-bootanimation",
+    "folderName": "Cyber Neon Frame bootanimation",
+    "name": "Cyber Neon Frame",
+    "width": 720,
+    "height": 1276,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 15649073,
+    "sizeFormatted": "14.92 MB",
+    "zipName": "Cyber Neon Frame bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyber%20Neon%20Frame%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Neon%20Frame%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cyber%20Neon%20Frame%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "cyber-neon-grid-art-bootanimation",
+    "folderName": "Cyber Neon Grid Art bootanimation",
+    "name": "Cyber Neon Grid Art",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 12867412,
+    "sizeFormatted": "12.27 MB",
+    "zipName": "Cyber Neon Grid Art bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyber%20Neon%20Grid%20Art%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyber%20Neon%20Grid%20Art%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cyber%20Neon%20Grid%20Art%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "cybernetic-bootanimation",
@@ -1456,12 +1632,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2329375,
-    "sizeFormatted": "2.22 MB",
+    "sizeBytes": 2314741,
+    "sizeFormatted": "2.21 MB",
     "zipName": "Cybernetic bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cybernetic%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cybernetic%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cybernetic%20bootanimation/part0/frame_001_delay-0.03s.png"
+  },
+  {
+    "id": "cyberpunk-tokyo-typography-bootanimation",
+    "folderName": "Cyberpunk Tokyo Typography bootanimation",
+    "name": "Cyberpunk Tokyo Typography",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11085065,
+    "sizeFormatted": "10.57 MB",
+    "zipName": "Cyberpunk Tokyo Typography bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Cyberpunk%20Tokyo%20Typography%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Cyberpunk%20Tokyo%20Typography%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Cyberpunk%20Tokyo%20Typography%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "dna-bootanimation",
@@ -1478,12 +1676,56 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 620251,
-    "sizeFormatted": "605.71 KB",
+    "sizeBytes": 618145,
+    "sizeFormatted": "603.66 KB",
     "zipName": "DNA bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/DNA%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/DNA%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/DNA%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "dark-fantasy-keren-bootanimation",
+    "folderName": "Dark Fantasy Keren bootanimation",
+    "name": "Dark Fantasy Keren",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 16670250,
+    "sizeFormatted": "15.9 MB",
+    "zipName": "Dark Fantasy Keren bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Dark%20Fantasy%20Keren%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Dark%20Fantasy%20Keren%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Dark%20Fantasy%20Keren%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "dark-minimal-video-bootanimation",
+    "folderName": "Dark Minimal Video bootanimation",
+    "name": "Dark Minimal Video",
+    "width": 720,
+    "height": 1278,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 6235888,
+    "sizeFormatted": "5.95 MB",
+    "zipName": "Dark Minimal Video bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Dark%20Minimal%20Video%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Dark%20Minimal%20Video%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Dark%20Minimal%20Video%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "darth-vader-bootanimation",
@@ -1500,12 +1742,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1532168,
-    "sizeFormatted": "1.46 MB",
+    "sizeBytes": 1523654,
+    "sizeFormatted": "1.45 MB",
     "zipName": "Darth Vader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Darth%20Vader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Darth%20Vader%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Darth%20Vader%20bootanimation/part0/frame_000_delay-0.06s.png"
+  },
+  {
+    "id": "deadpool-green-screen-bootanimation",
+    "folderName": "Deadpool Green Screen bootanimation",
+    "name": "Deadpool Green Screen",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5359149,
+    "sizeFormatted": "5.11 MB",
+    "zipName": "Deadpool Green Screen bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Deadpool%20Green%20Screen%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Deadpool%20Green%20Screen%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Deadpool%20Green%20Screen%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "deus-ex-bootanimation",
@@ -1522,12 +1786,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3525099,
-    "sizeFormatted": "3.36 MB",
+    "sizeBytes": 3497865,
+    "sizeFormatted": "3.34 MB",
     "zipName": "Deus Ex bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Deus%20Ex%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Deus%20Ex%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Deus%20Ex%20bootanimation/part0/frame_000_delay-0.03s.png"
+  },
+  {
+    "id": "devil-eye-animated-bootanimation",
+    "folderName": "Devil Eye Animated bootanimation",
+    "name": "Devil Eye Animated",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2536179,
+    "sizeFormatted": "2.42 MB",
+    "zipName": "Devil Eye Animated bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Devil%20Eye%20Animated%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Devil%20Eye%20Animated%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Devil%20Eye%20Animated%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "digital-snake-bootanimation",
@@ -1544,8 +1830,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 13308118,
-    "sizeFormatted": "12.69 MB",
+    "sizeBytes": 13298956,
+    "sizeFormatted": "12.68 MB",
     "zipName": "Digital Snake bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Digital%20Snake%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Digital%20Snake%20bootanimation.gif",
@@ -1566,8 +1852,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3167574,
-    "sizeFormatted": "3.02 MB",
+    "sizeBytes": 3158340,
+    "sizeFormatted": "3.01 MB",
     "zipName": "Dots bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Dots%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Dots%20bootanimation.gif",
@@ -1588,12 +1874,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2465235,
+    "sizeBytes": 2460681,
     "sizeFormatted": "2.35 MB",
     "zipName": "Double Cardan bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Double%20Cardan%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Double%20Cardan%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Double%20Cardan%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "dragon-typography-3d-bootanimation",
+    "folderName": "Dragon Typography 3D bootanimation",
+    "name": "Dragon Typography 3D",
+    "width": 720,
+    "height": 1560,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 9131330,
+    "sizeFormatted": "8.71 MB",
+    "zipName": "Dragon Typography 3D bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Dragon%20Typography%203D%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Dragon%20Typography%203D%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Dragon%20Typography%203D%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "earth-bootanimation",
@@ -1610,7 +1918,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 13227720,
+    "sizeBytes": 13223238,
     "sizeFormatted": "12.61 MB",
     "zipName": "Earth bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Earth%20bootanimation.zip",
@@ -1632,7 +1940,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4764752,
+    "sizeBytes": 4760198,
     "sizeFormatted": "4.54 MB",
     "zipName": "Evil bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Evil%20bootanimation.zip",
@@ -1654,7 +1962,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5205195,
+    "sizeBytes": 5203161,
     "sizeFormatted": "4.96 MB",
     "zipName": "Flames bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Flames%20bootanimation.zip",
@@ -1676,8 +1984,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 590452,
-    "sizeFormatted": "576.61 KB",
+    "sizeBytes": 585682,
+    "sizeFormatted": "571.96 KB",
     "zipName": "Flowbow bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Flowbow%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Flowbow%20bootanimation.gif",
@@ -1698,8 +2006,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 8504361,
-    "sizeFormatted": "8.11 MB",
+    "sizeBytes": 8497143,
+    "sizeFormatted": "8.1 MB",
     "zipName": "Flower bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Flower%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Flower%20bootanimation.gif",
@@ -1720,12 +2028,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 70502,
-    "sizeFormatted": "68.85 KB",
+    "sizeBytes": 69188,
+    "sizeFormatted": "67.57 KB",
     "zipName": "Fox bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Fox%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Fox%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Fox%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "futuristic-hud-blue-bootanimation",
+    "folderName": "Futuristic HUD Blue bootanimation",
+    "name": "Futuristic HUD Blue",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 17949679,
+    "sizeFormatted": "17.12 MB",
+    "zipName": "Futuristic HUD Blue bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Futuristic%20HUD%20Blue%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Futuristic%20HUD%20Blue%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Futuristic%20HUD%20Blue%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "gavitron-bootanimation",
@@ -1742,8 +2072,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 875002,
-    "sizeFormatted": "854.49 KB",
+    "sizeBytes": 871888,
+    "sizeFormatted": "851.45 KB",
     "zipName": "Gavitron bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Gavitron%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Gavitron%20bootanimation.gif",
@@ -1764,7 +2094,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5958609,
+    "sizeBytes": 5952039,
     "sizeFormatted": "5.68 MB",
     "zipName": "Geometric 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Geometric%202%20bootanimation.zip",
@@ -1786,8 +2116,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2589068,
-    "sizeFormatted": "2.47 MB",
+    "sizeBytes": 2583794,
+    "sizeFormatted": "2.46 MB",
     "zipName": "Geometric bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Geometric%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Geometric%20bootanimation.gif",
@@ -1808,8 +2138,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2901159,
-    "sizeFormatted": "2.77 MB",
+    "sizeBytes": 2888757,
+    "sizeFormatted": "2.75 MB",
     "zipName": "Glitch Circle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Glitch%20Circle%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Glitch%20Circle%20bootanimation.gif",
@@ -1830,7 +2160,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1682531,
+    "sizeBytes": 1673513,
     "sizeFormatted": "1.6 MB",
     "zipName": "Glitch Square bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Glitch%20Square%20bootanimation.zip",
@@ -1852,8 +2182,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1090694,
-    "sizeFormatted": "1.04 MB",
+    "sizeBytes": 1082324,
+    "sizeFormatted": "1.03 MB",
     "zipName": "Glitch Triangle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Glitch%20Triangle%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Glitch%20Triangle%20bootanimation.gif",
@@ -1874,7 +2204,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1345710,
+    "sizeBytes": 1343100,
     "sizeFormatted": "1.28 MB",
     "zipName": "Glitch bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Glitch%20bootanimation.zip",
@@ -1896,7 +2226,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 8013662,
+    "sizeBytes": 8008244,
     "sizeFormatted": "7.64 MB",
     "zipName": "Globe bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Globe%20bootanimation.zip",
@@ -1918,12 +2248,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5983527,
-    "sizeFormatted": "5.71 MB",
+    "sizeBytes": 5980557,
+    "sizeFormatted": "5.7 MB",
     "zipName": "Glow bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Glow%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Glow%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Glow%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "goku-ultra-instinct-bootanimation",
+    "folderName": "Goku Ultra Instinct bootanimation",
+    "name": "Goku Ultra Instinct",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2714601,
+    "sizeFormatted": "2.59 MB",
+    "zipName": "Goku Ultra Instinct bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Goku%20Ultra%20Instinct%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Goku%20Ultra%20Instinct%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Goku%20Ultra%20Instinct%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "google-bubbles-bootanimation",
@@ -1940,8 +2292,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 332268,
-    "sizeFormatted": "324.48 KB",
+    "sizeBytes": 328362,
+    "sizeFormatted": "320.67 KB",
     "zipName": "Google Bubbles bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Bubbles%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Bubbles%20bootanimation.gif",
@@ -1962,8 +2314,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1225104,
-    "sizeFormatted": "1.17 MB",
+    "sizeBytes": 1213998,
+    "sizeFormatted": "1.16 MB",
     "zipName": "Google Gears bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Gears%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Gears%20bootanimation.gif",
@@ -1984,8 +2336,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1149802,
-    "sizeFormatted": "1.1 MB",
+    "sizeBytes": 1141432,
+    "sizeFormatted": "1.09 MB",
     "zipName": "Google Loading 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Loading%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Loading%202%20bootanimation.gif",
@@ -2006,8 +2358,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2665142,
-    "sizeFormatted": "2.54 MB",
+    "sizeBytes": 2650076,
+    "sizeFormatted": "2.53 MB",
     "zipName": "Google Loading bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Loading%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Loading%20bootanimation.gif",
@@ -2028,8 +2380,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 281624,
-    "sizeFormatted": "275.02 KB",
+    "sizeBytes": 275774,
+    "sizeFormatted": "269.31 KB",
     "zipName": "Google Point bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Point%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Point%20bootanimation.gif",
@@ -2050,8 +2402,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 128846,
-    "sizeFormatted": "125.83 KB",
+    "sizeBytes": 127460,
+    "sizeFormatted": "124.47 KB",
     "zipName": "Google Rainbow bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Rainbow%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Rainbow%20bootanimation.gif",
@@ -2072,8 +2424,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 14071206,
-    "sizeFormatted": "13.42 MB",
+    "sizeBytes": 14060748,
+    "sizeFormatted": "13.41 MB",
     "zipName": "Google Stellar bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Stellar%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Stellar%20bootanimation.gif",
@@ -2094,8 +2446,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 959808,
-    "sizeFormatted": "937.31 KB",
+    "sizeBytes": 952230,
+    "sizeFormatted": "929.91 KB",
     "zipName": "Google Style 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Style%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Style%202%20bootanimation.gif",
@@ -2116,8 +2468,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2772445,
-    "sizeFormatted": "2.64 MB",
+    "sizeBytes": 2761555,
+    "sizeFormatted": "2.63 MB",
     "zipName": "Google Style bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Style%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Style%20bootanimation.gif",
@@ -2138,8 +2490,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 673815,
-    "sizeFormatted": "658.02 KB",
+    "sizeBytes": 664581,
+    "sizeFormatted": "649 KB",
     "zipName": "Google Target bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Target%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Target%20bootanimation.gif",
@@ -2160,8 +2512,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 765481,
-    "sizeFormatted": "747.54 KB",
+    "sizeBytes": 751567,
+    "sizeFormatted": "733.95 KB",
     "zipName": "Google Triangle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20Triangle%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20Triangle%20bootanimation.gif",
@@ -2182,8 +2534,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 641329,
-    "sizeFormatted": "626.3 KB",
+    "sizeBytes": 639655,
+    "sizeFormatted": "624.66 KB",
     "zipName": "Google bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Google%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Google%20bootanimation.gif",
@@ -2204,8 +2556,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 290519,
-    "sizeFormatted": "283.71 KB",
+    "sizeBytes": 287405,
+    "sizeFormatted": "280.67 KB",
     "zipName": "Green Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Green%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Green%20Loader%20bootanimation.gif",
@@ -2226,8 +2578,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2401595,
-    "sizeFormatted": "2.29 MB",
+    "sizeBytes": 2395601,
+    "sizeFormatted": "2.28 MB",
     "zipName": "Hammer bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hammer%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hammer%20bootanimation.gif",
@@ -2248,8 +2600,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3092795,
-    "sizeFormatted": "2.95 MB",
+    "sizeBytes": 3081545,
+    "sizeFormatted": "2.94 MB",
     "zipName": "Helix bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Helix%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Helix%20bootanimation.gif",
@@ -2270,8 +2622,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 12672923,
-    "sizeFormatted": "12.09 MB",
+    "sizeBytes": 12600689,
+    "sizeFormatted": "12.02 MB",
     "zipName": "Hex Sphere bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hex%20Sphere%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hex%20Sphere%20bootanimation.gif",
@@ -2292,8 +2644,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1340984,
-    "sizeFormatted": "1.28 MB",
+    "sizeBytes": 1335566,
+    "sizeFormatted": "1.27 MB",
     "zipName": "Hexa Explosion bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexa%20Explosion%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexa%20Explosion%20bootanimation.gif",
@@ -2314,8 +2666,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2327530,
-    "sizeFormatted": "2.22 MB",
+    "sizeBytes": 2320816,
+    "sizeFormatted": "2.21 MB",
     "zipName": "Hexa Retro bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexa%20Retro%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexa%20Retro%20bootanimation.gif",
@@ -2336,8 +2688,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 970789,
-    "sizeFormatted": "948.04 KB",
+    "sizeBytes": 961987,
+    "sizeFormatted": "939.44 KB",
     "zipName": "Hexagon 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%202%20bootanimation.gif",
@@ -2358,8 +2710,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2182648,
-    "sizeFormatted": "2.08 MB",
+    "sizeBytes": 2175214,
+    "sizeFormatted": "2.07 MB",
     "zipName": "Hexagon 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%203%20bootanimation.gif",
@@ -2380,8 +2732,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 459328,
-    "sizeFormatted": "448.56 KB",
+    "sizeBytes": 453694,
+    "sizeFormatted": "443.06 KB",
     "zipName": "Hexagon 4 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%204%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%204%20bootanimation.gif",
@@ -2408,8 +2760,8 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 2087836,
-    "sizeFormatted": "1.99 MB",
+    "sizeBytes": 2072177,
+    "sizeFormatted": "1.98 MB",
     "zipName": "Hexagon Dots bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%20Dots%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%20Dots%20bootanimation.gif",
@@ -2430,8 +2782,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 976091,
-    "sizeFormatted": "953.21 KB",
+    "sizeBytes": 961097,
+    "sizeFormatted": "938.57 KB",
     "zipName": "Hexagon Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%20Hud%20bootanimation.gif",
@@ -2452,8 +2804,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2409996,
-    "sizeFormatted": "2.3 MB",
+    "sizeBytes": 2401122,
+    "sizeFormatted": "2.29 MB",
     "zipName": "Hexagon Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%20Loader%20bootanimation.gif",
@@ -2474,8 +2826,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 558110,
-    "sizeFormatted": "545.03 KB",
+    "sizeBytes": 556724,
+    "sizeFormatted": "543.68 KB",
     "zipName": "Hexagon bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hexagon%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hexagon%20bootanimation.gif",
@@ -2496,8 +2848,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2272789,
-    "sizeFormatted": "2.17 MB",
+    "sizeBytes": 2266003,
+    "sizeFormatted": "2.16 MB",
     "zipName": "Hive bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hive%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hive%20bootanimation.gif",
@@ -2518,8 +2870,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 907502,
-    "sizeFormatted": "886.23 KB",
+    "sizeBytes": 900788,
+    "sizeFormatted": "879.68 KB",
     "zipName": "Hourglass bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hourglass%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hourglass%20bootanimation.gif",
@@ -2540,7 +2892,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1413286,
+    "sizeBytes": 1411612,
     "sizeFormatted": "1.35 MB",
     "zipName": "Hud 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hud%202%20bootanimation.zip",
@@ -2562,8 +2914,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3090088,
-    "sizeFormatted": "2.95 MB",
+    "sizeBytes": 3086974,
+    "sizeFormatted": "2.94 MB",
     "zipName": "Hud 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hud%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hud%203%20bootanimation.gif",
@@ -2584,7 +2936,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3360501,
+    "sizeBytes": 3351267,
     "sizeFormatted": "3.2 MB",
     "zipName": "Hud 4 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hud%204%20bootanimation.zip",
@@ -2606,8 +2958,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1755146,
-    "sizeFormatted": "1.67 MB",
+    "sizeBytes": 1744760,
+    "sizeFormatted": "1.66 MB",
     "zipName": "Hud Element bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hud%20Element%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hud%20Element%20bootanimation.gif",
@@ -2628,8 +2980,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7766276,
-    "sizeFormatted": "7.41 MB",
+    "sizeBytes": 7755242,
+    "sizeFormatted": "7.4 MB",
     "zipName": "Hud Hypnotism bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Hud%20Hypnotism%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Hud%20Hypnotism%20bootanimation.gif",
@@ -2650,8 +3002,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 461985,
-    "sizeFormatted": "451.16 KB",
+    "sizeBytes": 458295,
+    "sizeFormatted": "447.55 KB",
     "zipName": "IBM bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/IBM%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/IBM%20bootanimation.gif",
@@ -2672,8 +3024,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 727058,
-    "sizeFormatted": "710.02 KB",
+    "sizeBytes": 718184,
+    "sizeFormatted": "701.35 KB",
     "zipName": "IOI bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/IOI%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/IOI%20bootanimation.gif",
@@ -2694,8 +3046,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1266617,
-    "sizeFormatted": "1.21 MB",
+    "sizeBytes": 1246655,
+    "sizeFormatted": "1.19 MB",
     "zipName": "Infinite Energy bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Infinite%20Energy%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Infinite%20Energy%20bootanimation.gif",
@@ -2716,8 +3068,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 20809761,
-    "sizeFormatted": "19.85 MB",
+    "sizeBytes": 20770647,
+    "sizeFormatted": "19.81 MB",
     "zipName": "Infinite Seal bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Infinite%20Seal%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Infinite%20Seal%20bootanimation.gif",
@@ -2738,7 +3090,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1671886,
+    "sizeBytes": 1666468,
     "sizeFormatted": "1.59 MB",
     "zipName": "Infinite bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Infinite%20bootanimation.zip",
@@ -2760,7 +3112,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4962186,
+    "sizeBytes": 4956480,
     "sizeFormatted": "4.73 MB",
     "zipName": "Infinity Circle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Infinity%20Circle%20bootanimation.zip",
@@ -2782,8 +3134,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1007733,
-    "sizeFormatted": "984.11 KB",
+    "sizeBytes": 1003611,
+    "sizeFormatted": "980.09 KB",
     "zipName": "Infinity Loading bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Infinity%20Loading%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Infinity%20Loading%20bootanimation.gif",
@@ -2804,8 +3156,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6782807,
-    "sizeFormatted": "6.47 MB",
+    "sizeBytes": 6775373,
+    "sizeFormatted": "6.46 MB",
     "zipName": "Inside Out bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Inside%20Out%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Inside%20Out%20bootanimation.gif",
@@ -2826,7 +3178,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1335404,
+    "sizeBytes": 1331930,
     "sizeFormatted": "1.27 MB",
     "zipName": "Inside bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Inside%20bootanimation.zip",
@@ -2848,7 +3200,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1582456,
+    "sizeBytes": 1580350,
     "sizeFormatted": "1.51 MB",
     "zipName": "Intersect bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Intersect%20bootanimation.zip",
@@ -2870,7 +3222,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2729793,
+    "sizeBytes": 2726103,
     "sizeFormatted": "2.6 MB",
     "zipName": "Iron Man Helmet bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Iron%20Man%20Helmet%20bootanimation.zip",
@@ -2892,8 +3244,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 18482450,
-    "sizeFormatted": "17.63 MB",
+    "sizeBytes": 18475016,
+    "sizeFormatted": "17.62 MB",
     "zipName": "Iron Man Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Iron%20Man%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Iron%20Man%20Hud%20bootanimation.gif",
@@ -2914,8 +3266,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3850293,
-    "sizeFormatted": "3.67 MB",
+    "sizeBytes": 3835371,
+    "sizeFormatted": "3.66 MB",
     "zipName": "Isometric bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Isometric%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Isometric%20bootanimation.gif",
@@ -2936,8 +3288,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2041718,
-    "sizeFormatted": "1.95 MB",
+    "sizeBytes": 2032916,
+    "sizeFormatted": "1.94 MB",
     "zipName": "LIB bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/LIB%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/LIB%20bootanimation.gif",
@@ -2958,8 +3310,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6363345,
-    "sizeFormatted": "6.07 MB",
+    "sizeBytes": 6356631,
+    "sizeFormatted": "6.06 MB",
     "zipName": "Labyrinth bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Labyrinth%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Labyrinth%20bootanimation.gif",
@@ -2980,8 +3332,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1300684,
-    "sizeFormatted": "1.24 MB",
+    "sizeBytes": 1294690,
+    "sizeFormatted": "1.23 MB",
     "zipName": "Lego bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Lego%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Lego%20bootanimation.gif",
@@ -3002,8 +3354,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2559148,
-    "sizeFormatted": "2.44 MB",
+    "sizeBytes": 2552434,
+    "sizeFormatted": "2.43 MB",
     "zipName": "Lights bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Lights%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Lights%20bootanimation.gif",
@@ -3024,8 +3376,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 102630,
-    "sizeFormatted": "100.22 KB",
+    "sizeBytes": 100164,
+    "sizeFormatted": "97.82 KB",
     "zipName": "Line bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Line%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Line%20bootanimation.gif",
@@ -3046,8 +3398,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1662719,
-    "sizeFormatted": "1.59 MB",
+    "sizeBytes": 1659101,
+    "sizeFormatted": "1.58 MB",
     "zipName": "Lion bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Lion%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Lion%20bootanimation.gif",
@@ -3068,12 +3420,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 262313,
-    "sizeFormatted": "256.17 KB",
+    "sizeBytes": 260711,
+    "sizeFormatted": "254.6 KB",
     "zipName": "Liquid bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Liquid%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Liquid%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Liquid%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "liverpool-fc-neon-bootanimation",
+    "folderName": "Liverpool FC Neon bootanimation",
+    "name": "Liverpool FC Neon",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 15468455,
+    "sizeFormatted": "14.75 MB",
+    "zipName": "Liverpool FC Neon bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Liverpool%20FC%20Neon%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Liverpool%20FC%20Neon%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Liverpool%20FC%20Neon%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "load-it-2-bootanimation",
@@ -3090,8 +3464,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1037462,
-    "sizeFormatted": "1013.15 KB",
+    "sizeBytes": 1033052,
+    "sizeFormatted": "1008.84 KB",
     "zipName": "Load It 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Load%20It%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Load%20It%202%20bootanimation.gif",
@@ -3112,8 +3486,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3221176,
-    "sizeFormatted": "3.07 MB",
+    "sizeBytes": 3208630,
+    "sizeFormatted": "3.06 MB",
     "zipName": "Load It bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Load%20It%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Load%20It%20bootanimation.gif",
@@ -3134,8 +3508,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1647015,
-    "sizeFormatted": "1.57 MB",
+    "sizeBytes": 1640517,
+    "sizeFormatted": "1.56 MB",
     "zipName": "Loader 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loader%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loader%202%20bootanimation.gif",
@@ -3156,8 +3530,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 873883,
-    "sizeFormatted": "853.4 KB",
+    "sizeBytes": 870049,
+    "sizeFormatted": "849.66 KB",
     "zipName": "Loader 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loader%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loader%203%20bootanimation.gif",
@@ -3178,7 +3552,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1859036,
+    "sizeBytes": 1854770,
     "sizeFormatted": "1.77 MB",
     "zipName": "Loader 3.0 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loader%203.0%20bootanimation.zip",
@@ -3200,8 +3574,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 555429,
-    "sizeFormatted": "542.41 KB",
+    "sizeBytes": 553035,
+    "sizeFormatted": "540.07 KB",
     "zipName": "Loader Effect bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loader%20Effect%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loader%20Effect%20bootanimation.gif",
@@ -3222,8 +3596,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3279083,
-    "sizeFormatted": "3.13 MB",
+    "sizeBytes": 3271289,
+    "sizeFormatted": "3.12 MB",
     "zipName": "Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loader%20bootanimation.gif",
@@ -3244,8 +3618,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 625428,
-    "sizeFormatted": "610.77 KB",
+    "sizeBytes": 614250,
+    "sizeFormatted": "599.85 KB",
     "zipName": "Loading Type bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loading%20Type%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loading%20Type%20bootanimation.gif",
@@ -3266,8 +3640,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 327435,
-    "sizeFormatted": "319.76 KB",
+    "sizeBytes": 323817,
+    "sizeFormatted": "316.23 KB",
     "zipName": "Loading bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Loading%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Loading%20bootanimation.gif",
@@ -3288,12 +3662,56 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 804363,
-    "sizeFormatted": "785.51 KB",
+    "sizeBytes": 799521,
+    "sizeFormatted": "780.78 KB",
     "zipName": "Lone bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Lone%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Lone%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Lone%20bootanimation/part0/frame_00_delay-0.06s.png"
+  },
+  {
+    "id": "makima-chainsaw-man-bootanimation",
+    "folderName": "Makima Chainsaw Man bootanimation",
+    "name": "Makima Chainsaw Man",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 10289865,
+    "sizeFormatted": "9.81 MB",
+    "zipName": "Makima Chainsaw Man bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Makima%20Chainsaw%20Man%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Makima%20Chainsaw%20Man%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Makima%20Chainsaw%20Man%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "math-formula-animation-bootanimation",
+    "folderName": "Math Formula Animation bootanimation",
+    "name": "Math Formula Animation",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 5805001,
+    "sizeFormatted": "5.54 MB",
+    "zipName": "Math Formula Animation bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Math%20Formula%20Animation%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Math%20Formula%20Animation%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Math%20Formula%20Animation%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "melting-loader-bootanimation",
@@ -3310,8 +3728,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3720523,
-    "sizeFormatted": "3.55 MB",
+    "sizeBytes": 3704809,
+    "sizeFormatted": "3.53 MB",
     "zipName": "Melting Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Melting%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Melting%20Loader%20bootanimation.gif",
@@ -3332,8 +3750,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 963794,
-    "sizeFormatted": "941.21 KB",
+    "sizeBytes": 946064,
+    "sizeFormatted": "923.89 KB",
     "zipName": "Microsoft bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Microsoft%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Microsoft%20bootanimation.gif",
@@ -3354,7 +3772,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1583702,
+    "sizeBytes": 1579148,
     "sizeFormatted": "1.51 MB",
     "zipName": "Motion bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Motion%20bootanimation.zip",
@@ -3376,8 +3794,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1620209,
-    "sizeFormatted": "1.55 MB",
+    "sizeBytes": 1616303,
+    "sizeFormatted": "1.54 MB",
     "zipName": "Multicube bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Multicube%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Multicube%20bootanimation.gif",
@@ -3398,12 +3816,100 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 811673,
-    "sizeFormatted": "792.65 KB",
+    "sizeBytes": 804239,
+    "sizeFormatted": "785.39 KB",
     "zipName": "Mystic bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Mystic%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Mystic%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Mystic%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "naruto-rasengan-live-bootanimation",
+    "folderName": "Naruto Rasengan Live bootanimation",
+    "name": "Naruto Rasengan Live",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3679591,
+    "sizeFormatted": "3.51 MB",
+    "zipName": "Naruto Rasengan Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Naruto%20Rasengan%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Naruto%20Rasengan%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Naruto%20Rasengan%20Live%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "neon-charging-screen-bootanimation",
+    "folderName": "Neon Charging Screen bootanimation",
+    "name": "Neon Charging Screen",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 7031498,
+    "sizeFormatted": "6.71 MB",
+    "zipName": "Neon Charging Screen bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Neon%20Charging%20Screen%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Neon%20Charging%20Screen%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Neon%20Charging%20Screen%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "neon-red-blue-lights-bootanimation",
+    "folderName": "Neon Red Blue Lights bootanimation",
+    "name": "Neon Red Blue Lights",
+    "width": 720,
+    "height": 1440,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 16535013,
+    "sizeFormatted": "15.77 MB",
+    "zipName": "Neon Red Blue Lights bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Neon%20Red%20Blue%20Lights%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Neon%20Red%20Blue%20Lights%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Neon%20Red%20Blue%20Lights%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "neon-science-poster-bootanimation",
+    "folderName": "Neon Science Poster bootanimation",
+    "name": "Neon Science Poster",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 15942680,
+    "sizeFormatted": "15.2 MB",
+    "zipName": "Neon Science Poster bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Neon%20Science%20Poster%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Neon%20Science%20Poster%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Neon%20Science%20Poster%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "node-lock-bootanimation",
@@ -3420,8 +3926,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1536705,
-    "sizeFormatted": "1.47 MB",
+    "sizeBytes": 1523511,
+    "sizeFormatted": "1.45 MB",
     "zipName": "Node Lock bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Node%20Lock%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Node%20Lock%20bootanimation.gif",
@@ -3442,8 +3948,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 885436,
-    "sizeFormatted": "864.68 KB",
+    "sizeBytes": 878290,
+    "sizeFormatted": "857.71 KB",
     "zipName": "Oblique bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Oblique%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Oblique%20bootanimation.gif",
@@ -3464,8 +3970,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1857937,
-    "sizeFormatted": "1.77 MB",
+    "sizeBytes": 1845967,
+    "sizeFormatted": "1.76 MB",
     "zipName": "Optimus bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Optimus%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Optimus%20bootanimation.gif",
@@ -3486,12 +3992,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1109374,
-    "sizeFormatted": "1.06 MB",
+    "sizeBytes": 1100356,
+    "sizeFormatted": "1.05 MB",
     "zipName": "Orbit bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Orbit%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Orbit%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Orbit%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "osaragi-sakamoto-days-bootanimation",
+    "folderName": "Osaragi Sakamoto Days bootanimation",
+    "name": "Osaragi Sakamoto Days",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 10622690,
+    "sizeFormatted": "10.13 MB",
+    "zipName": "Osaragi Sakamoto Days bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Osaragi%20Sakamoto%20Days%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Osaragi%20Sakamoto%20Days%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Osaragi%20Sakamoto%20Days%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "ouroboros-bootanimation",
@@ -3508,8 +4036,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3576008,
-    "sizeFormatted": "3.41 MB",
+    "sizeBytes": 3569006,
+    "sizeFormatted": "3.4 MB",
     "zipName": "Ouroboros bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Ouroboros%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Ouroboros%20bootanimation.gif",
@@ -3530,8 +4058,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 974814,
-    "sizeFormatted": "951.97 KB",
+    "sizeBytes": 971340,
+    "sizeFormatted": "948.57 KB",
     "zipName": "Overwatch Spinner bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Overwatch%20Spinner%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Overwatch%20Spinner%20bootanimation.gif",
@@ -3552,8 +4080,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 11133523,
-    "sizeFormatted": "10.62 MB",
+    "sizeBytes": 11122417,
+    "sizeFormatted": "10.61 MB",
     "zipName": "Owl bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Owl%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Owl%20bootanimation.gif",
@@ -3574,8 +4102,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 938323,
-    "sizeFormatted": "916.33 KB",
+    "sizeBytes": 932833,
+    "sizeFormatted": "910.97 KB",
     "zipName": "PSX bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/PSX%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/PSX%20bootanimation.gif",
@@ -3596,8 +4124,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 674497,
-    "sizeFormatted": "658.69 KB",
+    "sizeBytes": 670159,
+    "sizeFormatted": "654.45 KB",
     "zipName": "Particles bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Particles%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Particles%20bootanimation.gif",
@@ -3618,8 +4146,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1648224,
-    "sizeFormatted": "1.57 MB",
+    "sizeBytes": 1631502,
+    "sizeFormatted": "1.56 MB",
     "zipName": "Pentagon bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pentagon%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pentagon%20bootanimation.gif",
@@ -3640,8 +4168,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 892939,
-    "sizeFormatted": "872.01 KB",
+    "sizeBytes": 884065,
+    "sizeFormatted": "863.34 KB",
     "zipName": "Pie bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pie%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pie%20bootanimation.gif",
@@ -3662,8 +4190,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2041404,
-    "sizeFormatted": "1.95 MB",
+    "sizeBytes": 2026770,
+    "sizeFormatted": "1.93 MB",
     "zipName": "Pin bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pin%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pin%20bootanimation.gif",
@@ -3684,12 +4212,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1753666,
+    "sizeBytes": 1746232,
     "sizeFormatted": "1.67 MB",
     "zipName": "Pitbull bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pitbull%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pitbull%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Pitbull%20bootanimation/part0/frame_000_delay-0.06s.png"
+  },
+  {
+    "id": "pixel-art-red-blue-anime-bootanimation",
+    "folderName": "Pixel Art Red Blue Anime bootanimation",
+    "name": "Pixel Art Red Blue Anime",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 20108209,
+    "sizeFormatted": "19.18 MB",
+    "zipName": "Pixel Art Red Blue Anime bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pixel%20Art%20Red%20Blue%20Anime%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pixel%20Art%20Red%20Blue%20Anime%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Pixel%20Art%20Red%20Blue%20Anime%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "pixels-bootanimation",
@@ -3706,8 +4256,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6141364,
-    "sizeFormatted": "5.86 MB",
+    "sizeBytes": 6123850,
+    "sizeFormatted": "5.84 MB",
     "zipName": "Pixels bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Pixels%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Pixels%20bootanimation.gif",
@@ -3728,8 +4278,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1708034,
-    "sizeFormatted": "1.63 MB",
+    "sizeBytes": 1699736,
+    "sizeFormatted": "1.62 MB",
     "zipName": "Point bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Point%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Point%20bootanimation.gif",
@@ -3750,8 +4300,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1626487,
-    "sizeFormatted": "1.55 MB",
+    "sizeBytes": 1598029,
+    "sizeFormatted": "1.52 MB",
     "zipName": "Polaroid bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Polaroid%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Polaroid%20bootanimation.gif",
@@ -3772,8 +4322,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4362640,
-    "sizeFormatted": "4.16 MB",
+    "sizeBytes": 4351174,
+    "sizeFormatted": "4.15 MB",
     "zipName": "Preloader 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Preloader%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Preloader%202%20bootanimation.gif",
@@ -3794,8 +4344,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 452387,
-    "sizeFormatted": "441.78 KB",
+    "sizeBytes": 449273,
+    "sizeFormatted": "438.74 KB",
     "zipName": "Preloader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Preloader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Preloader%20bootanimation.gif",
@@ -3816,8 +4366,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2940129,
-    "sizeFormatted": "2.8 MB",
+    "sizeBytes": 2925423,
+    "sizeFormatted": "2.79 MB",
     "zipName": "Quarters bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Quarters%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Quarters%20bootanimation.gif",
@@ -3838,8 +4388,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7828335,
-    "sizeFormatted": "7.47 MB",
+    "sizeBytes": 7797501,
+    "sizeFormatted": "7.44 MB",
     "zipName": "RGY Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/RGY%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/RGY%20Loader%20bootanimation.gif",
@@ -3860,8 +4410,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1484961,
-    "sizeFormatted": "1.42 MB",
+    "sizeBytes": 1483647,
+    "sizeFormatted": "1.41 MB",
     "zipName": "ROG 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/ROG%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG%202%20bootanimation.gif",
@@ -3882,7 +4432,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1815013,
+    "sizeBytes": 1810027,
     "sizeFormatted": "1.73 MB",
     "zipName": "ROG 3D bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/ROG%203D%20bootanimation.zip",
@@ -3910,17 +4460,17 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 9459783,
-    "sizeFormatted": "9.02 MB",
+    "sizeBytes": 9449020,
+    "sizeFormatted": "9.01 MB",
     "zipName": "ROG bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/ROG%20bootanimation.zip",
-    "gifUrl": null,
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/ROG%20bootanimation/part0/001.jpg"
   },
   {
-    "id": "rog_bootanimation",
+    "id": "rog-bootanimation",
     "folderName": "ROG_bootanimation",
-    "name": "ROG_bootanimation",
+    "name": "ROG Boot",
     "width": 1380,
     "height": 920,
     "fps": 30,
@@ -3938,8 +4488,8 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 9459783,
-    "sizeFormatted": "9.02 MB",
+    "sizeBytes": 9449020,
+    "sizeFormatted": "9.01 MB",
     "zipName": "ROG_bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/ROG_bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/ROG_bootanimation.gif",
@@ -3960,8 +4510,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 379978,
-    "sizeFormatted": "371.07 KB",
+    "sizeBytes": 377584,
+    "sizeFormatted": "368.73 KB",
     "zipName": "Rainbow Orbit bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Rainbow%20Orbit%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Rainbow%20Orbit%20bootanimation.gif",
@@ -3982,12 +4532,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3554191,
+    "sizeBytes": 3549493,
     "sizeFormatted": "3.39 MB",
     "zipName": "Rapture bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Rapture%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Rapture%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Rapture%20bootanimation/part0/frame_00_delay-0.1s.png"
+  },
+  {
+    "id": "red-eyes-anime-live-bootanimation",
+    "folderName": "Red Eyes Anime Live bootanimation",
+    "name": "Red Eyes Anime Live",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 3925568,
+    "sizeFormatted": "3.74 MB",
+    "zipName": "Red Eyes Anime Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Red%20Eyes%20Anime%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Red%20Eyes%20Anime%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Red%20Eyes%20Anime%20Live%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "red-hive-bootanimation",
@@ -4004,8 +4576,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 966959,
-    "sizeFormatted": "944.3 KB",
+    "sizeBytes": 955925,
+    "sizeFormatted": "933.52 KB",
     "zipName": "Red Hive bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Red%20Hive%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Red%20Hive%20bootanimation.gif",
@@ -4026,12 +4598,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 496426,
-    "sizeFormatted": "484.79 KB",
+    "sizeBytes": 492376,
+    "sizeFormatted": "480.84 KB",
     "zipName": "Red Loader bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Red%20Loader%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Red%20Loader%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Red%20Loader%20bootanimation/part0/frame_00_delay-0.04s.png"
+  },
+  {
+    "id": "reze-chainsaw-man-bootanimation",
+    "folderName": "Reze Chainsaw Man bootanimation",
+    "name": "Reze Chainsaw Man",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11239948,
+    "sizeFormatted": "10.72 MB",
+    "zipName": "Reze Chainsaw Man bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Reze%20Chainsaw%20Man%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Reze%20Chainsaw%20Man%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Reze%20Chainsaw%20Man%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "rings-2-bootanimation",
@@ -4048,8 +4642,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6585761,
-    "sizeFormatted": "6.28 MB",
+    "sizeBytes": 6566087,
+    "sizeFormatted": "6.26 MB",
     "zipName": "Rings 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Rings%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Rings%202%20bootanimation.gif",
@@ -4070,8 +4664,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2354876,
-    "sizeFormatted": "2.25 MB",
+    "sizeBytes": 2338802,
+    "sizeFormatted": "2.23 MB",
     "zipName": "Rings bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Rings%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Rings%20bootanimation.gif",
@@ -4092,12 +4686,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 665670,
-    "sizeFormatted": "650.07 KB",
+    "sizeBytes": 658236,
+    "sizeFormatted": "642.81 KB",
     "zipName": "Rubik bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Rubik%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Rubik%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Rubik%20bootanimation/part0/frame_000_delay-0.1s.png"
+  },
+  {
+    "id": "sakura-anime-bootanimation",
+    "folderName": "Sakura Anime bootanimation",
+    "name": "Sakura Anime",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11660653,
+    "sizeFormatted": "11.12 MB",
+    "zipName": "Sakura Anime bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sakura%20Anime%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sakura%20Anime%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sakura%20Anime%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "samsung-bootanimation",
@@ -4114,8 +4730,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1055007,
-    "sizeFormatted": "1.01 MB",
+    "sizeBytes": 1043973,
+    "sizeFormatted": "1019.5 KB",
     "zipName": "Samsung bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Samsung%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Samsung%20bootanimation.gif",
@@ -4136,8 +4752,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6960165,
-    "sizeFormatted": "6.64 MB",
+    "sizeBytes": 6936675,
+    "sizeFormatted": "6.62 MB",
     "zipName": "Seal 3 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Seal%203%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Seal%203%20bootanimation.gif",
@@ -4158,12 +4774,56 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6111241,
-    "sizeFormatted": "5.83 MB",
+    "sizeBytes": 6082279,
+    "sizeFormatted": "5.8 MB",
     "zipName": "Seal bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Seal%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Seal%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Seal%20bootanimation/part0/frame_000_delay-0.04s.png"
+  },
+  {
+    "id": "sharingan-eyes-live-bootanimation",
+    "folderName": "Sharingan Eyes Live bootanimation",
+    "name": "Sharingan Eyes Live",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2955661,
+    "sizeFormatted": "2.82 MB",
+    "zipName": "Sharingan Eyes Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sharingan%20Eyes%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sharingan%20Eyes%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sharingan%20Eyes%20Live%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "sharingan-naruto-live-bootanimation",
+    "folderName": "Sharingan Naruto Live bootanimation",
+    "name": "Sharingan Naruto Live",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2920152,
+    "sizeFormatted": "2.78 MB",
+    "zipName": "Sharingan Naruto Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sharingan%20Naruto%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sharingan%20Naruto%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sharingan%20Naruto%20Live%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "shuffle-bootanimation",
@@ -4180,8 +4840,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3049513,
-    "sizeFormatted": "2.91 MB",
+    "sizeBytes": 3042871,
+    "sizeFormatted": "2.9 MB",
     "zipName": "Shuffle bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Shuffle%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Shuffle%20bootanimation.gif",
@@ -4202,12 +4862,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2151804,
+    "sizeBytes": 2147250,
     "sizeFormatted": "2.05 MB",
     "zipName": "Shuffled bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Shuffled%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Shuffled%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Shuffled%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "sky-anime-live-bootanimation",
+    "folderName": "Sky Anime Live bootanimation",
+    "name": "Sky Anime Live",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 13238949,
+    "sizeFormatted": "12.63 MB",
+    "zipName": "Sky Anime Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sky%20Anime%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sky%20Anime%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sky%20Anime%20Live%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "sliced-bootanimation",
@@ -4224,8 +4906,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2544820,
-    "sizeFormatted": "2.43 MB",
+    "sizeBytes": 2541346,
+    "sizeFormatted": "2.42 MB",
     "zipName": "Sliced bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sliced%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sliced%20bootanimation.gif",
@@ -4246,8 +4928,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 154669,
-    "sizeFormatted": "151.04 KB",
+    "sizeBytes": 153355,
+    "sizeFormatted": "149.76 KB",
     "zipName": "Slices bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Slices%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Slices%20bootanimation.gif",
@@ -4268,12 +4950,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2186066,
+    "sizeBytes": 2176472,
     "sizeFormatted": "2.08 MB",
     "zipName": "Sliding Squares bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sliding%20Squares%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sliding%20Squares%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sliding%20Squares%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "smile-face-anime-bootanimation",
+    "folderName": "Smile Face Anime bootanimation",
+    "name": "Smile Face Anime",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2524998,
+    "sizeFormatted": "2.41 MB",
+    "zipName": "Smile Face Anime bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Smile%20Face%20Anime%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Smile%20Face%20Anime%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Smile%20Face%20Anime%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "snowflake-bootanimation",
@@ -4290,7 +4994,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7774993,
+    "sizeBytes": 7769287,
     "sizeFormatted": "7.41 MB",
     "zipName": "Snowflake bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Snowflake%20bootanimation.zip",
@@ -4312,8 +5016,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 14799679,
-    "sizeFormatted": "14.11 MB",
+    "sizeBytes": 14790085,
+    "sizeFormatted": "14.1 MB",
     "zipName": "Solaris bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Solaris%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Solaris%20bootanimation.gif",
@@ -4334,12 +5038,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1475855,
-    "sizeFormatted": "1.41 MB",
+    "sizeBytes": 1469141,
+    "sizeFormatted": "1.4 MB",
     "zipName": "Sonic bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sonic%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sonic%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Sonic%20bootanimation/part0/frame_00_delay-0.03s.png"
+  },
+  {
+    "id": "soul-eater-black-icon-bootanimation",
+    "folderName": "Soul Eater Black Icon bootanimation",
+    "name": "Soul Eater Black Icon",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 8413323,
+    "sizeFormatted": "8.02 MB",
+    "zipName": "Soul Eater Black Icon bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Soul%20Eater%20Black%20Icon%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Soul%20Eater%20Black%20Icon%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Soul%20Eater%20Black%20Icon%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "space-chase-bootanimation",
@@ -4356,8 +5082,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7995571,
-    "sizeFormatted": "7.63 MB",
+    "sizeBytes": 7986697,
+    "sizeFormatted": "7.62 MB",
     "zipName": "Space Chase bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Space%20Chase%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Space%20Chase%20bootanimation.gif",
@@ -4378,8 +5104,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 479002,
-    "sizeFormatted": "467.78 KB",
+    "sizeBytes": 476176,
+    "sizeFormatted": "465.02 KB",
     "zipName": "Sphere bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Sphere%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Sphere%20bootanimation.gif",
@@ -4400,8 +5126,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 5842744,
-    "sizeFormatted": "5.57 MB",
+    "sizeBytes": 5829478,
+    "sizeFormatted": "5.56 MB",
     "zipName": "Spider Cube bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Spider%20Cube%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Spider%20Cube%20bootanimation.gif",
@@ -4422,8 +5148,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7613528,
-    "sizeFormatted": "7.26 MB",
+    "sizeBytes": 7601126,
+    "sizeFormatted": "7.25 MB",
     "zipName": "Spin bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Spin%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Spin%20bootanimation.gif",
@@ -4444,8 +5170,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 973991,
-    "sizeFormatted": "951.16 KB",
+    "sizeBytes": 969437,
+    "sizeFormatted": "946.72 KB",
     "zipName": "Spinner bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Spinner%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Spinner%20bootanimation.gif",
@@ -4466,8 +5192,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2737985,
-    "sizeFormatted": "2.61 MB",
+    "sizeBytes": 2731271,
+    "sizeFormatted": "2.6 MB",
     "zipName": "Spinners bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Spinners%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Spinners%20bootanimation.gif",
@@ -4488,8 +5214,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 493791,
-    "sizeFormatted": "482.22 KB",
+    "sizeBytes": 488877,
+    "sizeFormatted": "477.42 KB",
     "zipName": "Splash bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Splash%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Splash%20bootanimation.gif",
@@ -4510,8 +5236,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 382950,
-    "sizeFormatted": "373.97 KB",
+    "sizeBytes": 380844,
+    "sizeFormatted": "371.92 KB",
     "zipName": "Spot bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Spot%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Spot%20bootanimation.gif",
@@ -4532,8 +5258,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 315420,
-    "sizeFormatted": "308.03 KB",
+    "sizeBytes": 302730,
+    "sizeFormatted": "295.63 KB",
     "zipName": "Square Hud bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Square%20Hud%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Square%20Hud%20bootanimation.gif",
@@ -4554,7 +5280,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1619597,
+    "sizeBytes": 1613603,
     "sizeFormatted": "1.54 MB",
     "zipName": "Square Shape bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Square%20Shape%20bootanimation.zip",
@@ -4576,8 +5302,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1181632,
-    "sizeFormatted": "1.13 MB",
+    "sizeBytes": 1178158,
+    "sizeFormatted": "1.12 MB",
     "zipName": "Square bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Square%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Square%20bootanimation.gif",
@@ -4598,8 +5324,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 336924,
-    "sizeFormatted": "329.03 KB",
+    "sizeBytes": 335394,
+    "sizeFormatted": "327.53 KB",
     "zipName": "Squircles bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Squircles%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Squircles%20bootanimation.gif",
@@ -4620,12 +5346,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 462776,
-    "sizeFormatted": "451.93 KB",
+    "sizeBytes": 458222,
+    "sizeFormatted": "447.48 KB",
     "zipName": "Star bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Star%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Star%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Star%20bootanimation/part0/frame_00_delay-0.07s.png"
+  },
+  {
+    "id": "stargate-terminal-bootanimation",
+    "folderName": "Stargate Terminal bootanimation",
+    "name": "Stargate Terminal",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 16702639,
+    "sizeFormatted": "15.93 MB",
+    "zipName": "Stargate Terminal bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Stargate%20Terminal%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Stargate%20Terminal%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Stargate%20Terminal%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "still-loading-bootanimation",
@@ -4642,7 +5390,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1335302,
+    "sizeBytes": 1329668,
     "sizeFormatted": "1.27 MB",
     "zipName": "Still Loading bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Still%20Loading%20bootanimation.zip",
@@ -4664,8 +5412,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2944220,
-    "sizeFormatted": "2.81 MB",
+    "sizeBytes": 2934770,
+    "sizeFormatted": "2.8 MB",
     "zipName": "Stormtrooper bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Stormtrooper%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Stormtrooper%20bootanimation.gif",
@@ -4686,12 +5434,34 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 960648,
-    "sizeFormatted": "938.13 KB",
+    "sizeBytes": 944574,
+    "sizeFormatted": "922.44 KB",
     "zipName": "Symbol bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Symbol%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Symbol%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Symbol%20bootanimation/part0/frame_000_delay-0.02s.png"
+  },
+  {
+    "id": "tanjiro-after-dark-bootanimation",
+    "folderName": "Tanjiro After Dark bootanimation",
+    "name": "Tanjiro After Dark",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 11843467,
+    "sizeFormatted": "11.29 MB",
+    "zipName": "Tanjiro After Dark bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Tanjiro%20After%20Dark%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Tanjiro%20After%20Dark%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Tanjiro%20After%20Dark%20bootanimation/part0/frame_0001.jpg"
   },
   {
     "id": "target-2-bootanimation",
@@ -4708,8 +5478,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6060665,
-    "sizeFormatted": "5.78 MB",
+    "sizeBytes": 6053951,
+    "sizeFormatted": "5.77 MB",
     "zipName": "Target 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Target%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Target%202%20bootanimation.gif",
@@ -4730,8 +5500,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3833909,
-    "sizeFormatted": "3.66 MB",
+    "sizeBytes": 3823739,
+    "sizeFormatted": "3.65 MB",
     "zipName": "Target bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Target%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Target%20bootanimation.gif",
@@ -4752,8 +5522,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 9172008,
-    "sizeFormatted": "8.75 MB",
+    "sizeBytes": 9157950,
+    "sizeFormatted": "8.73 MB",
     "zipName": "Tech 2 bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Tech%202%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Tech%202%20bootanimation.gif",
@@ -4774,8 +5544,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 7440471,
-    "sizeFormatted": "7.1 MB",
+    "sizeBytes": 7435917,
+    "sizeFormatted": "7.09 MB",
     "zipName": "Tire bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Tire%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Tire%20bootanimation.gif",
@@ -4796,8 +5566,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2431286,
-    "sizeFormatted": "2.32 MB",
+    "sizeBytes": 2422412,
+    "sizeFormatted": "2.31 MB",
     "zipName": "Triangles bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Triangles%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Triangles%20bootanimation.gif",
@@ -4818,8 +5588,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 4263345,
-    "sizeFormatted": "4.07 MB",
+    "sizeBytes": 4260951,
+    "sizeFormatted": "4.06 MB",
     "zipName": "Twenty bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Twenty%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Twenty%20bootanimation.gif",
@@ -4840,8 +5610,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 6138328,
-    "sizeFormatted": "5.85 MB",
+    "sizeBytes": 6127078,
+    "sizeFormatted": "5.84 MB",
     "zipName": "Twist bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Twist%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Twist%20bootanimation.gif",
@@ -4862,8 +5632,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 1956491,
-    "sizeFormatted": "1.87 MB",
+    "sizeBytes": 1953449,
+    "sizeFormatted": "1.86 MB",
     "zipName": "UFO Spinner bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/UFO%20Spinner%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/UFO%20Spinner%20bootanimation.gif",
@@ -4884,8 +5654,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 2045928,
-    "sizeFormatted": "1.95 MB",
+    "sizeBytes": 2034750,
+    "sizeFormatted": "1.94 MB",
     "zipName": "Umbrella bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Umbrella%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Umbrella%20bootanimation.gif",
@@ -4912,8 +5682,8 @@
         "folder": "part1"
       }
     ],
-    "sizeBytes": 7210728,
-    "sizeFormatted": "6.88 MB",
+    "sizeBytes": 7188733,
+    "sizeFormatted": "6.86 MB",
     "zipName": "Unrap bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Unrap%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Unrap%20bootanimation.gif",
@@ -4934,8 +5704,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 536867,
-    "sizeFormatted": "524.28 KB",
+    "sizeBytes": 534185,
+    "sizeFormatted": "521.67 KB",
     "zipName": "Watch Dogs bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Watch%20Dogs%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Watch%20Dogs%20bootanimation.gif",
@@ -4956,8 +5726,8 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3730914,
-    "sizeFormatted": "3.56 MB",
+    "sizeBytes": 3718080,
+    "sizeFormatted": "3.55 MB",
     "zipName": "Westworld bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Westworld%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Westworld%20bootanimation.gif",
@@ -4978,7 +5748,7 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 3778475,
+    "sizeBytes": 3773273,
     "sizeFormatted": "3.6 MB",
     "zipName": "Yin Yang bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Yin%20Yang%20bootanimation.zip",
@@ -5000,17 +5770,61 @@
         "folder": "part0"
       }
     ],
-    "sizeBytes": 258695,
-    "sizeFormatted": "252.63 KB",
+    "sizeBytes": 255581,
+    "sizeFormatted": "249.59 KB",
     "zipName": "Zelda bootanimation.zip",
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Zelda%20bootanimation.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zelda%20bootanimation.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Zelda%20bootanimation/part0/frame_00_delay-0.03s.png"
   },
   {
+    "id": "zenitsu-agatsuma-live-bootanimation",
+    "folderName": "Zenitsu Agatsuma Live bootanimation",
+    "name": "Zenitsu Agatsuma Live",
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 15391360,
+    "sizeFormatted": "14.68 MB",
+    "zipName": "Zenitsu Agatsuma Live bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Zenitsu%20Agatsuma%20Live%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zenitsu%20Agatsuma%20Live%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Zenitsu%20Agatsuma%20Live%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
+    "id": "zenitsu-demon-slayer-bootanimation",
+    "folderName": "Zenitsu Demon Slayer bootanimation",
+    "name": "Zenitsu Demon Slayer",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 13401634,
+    "sizeFormatted": "12.78 MB",
+    "zipName": "Zenitsu Demon Slayer bootanimation.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/Zenitsu%20Demon%20Slayer%20bootanimation.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/Zenitsu%20Demon%20Slayer%20bootanimation.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/Zenitsu%20Demon%20Slayer%20bootanimation/part0/frame_0001.jpg"
+  },
+  {
     "id": "avengers1-bootanimation-op7p",
     "folderName": "avengers1-bootanimation-op7p",
-    "name": "avengers1-bootanimation-op7p",
+    "name": "Avengers",
     "width": 1440,
     "height": 3120,
     "fps": 10,
@@ -5030,9 +5844,31 @@
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/avengers1-bootanimation-op7p/part0/000000.jpg"
   },
   {
+    "id": "goku-aura",
+    "folderName": "goku_aura",
+    "name": "Goku Aura",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 1893961,
+    "sizeFormatted": "1.81 MB",
+    "zipName": "goku_aura.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/goku_aura.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/goku_aura.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/goku_aura/part0/frame_0000.jpg"
+  },
+  {
     "id": "johnwick3-bootanimation-op7p",
     "folderName": "johnwick3-bootanimation-op7p",
-    "name": "johnwick3-bootanimation-op7p",
+    "name": "John Wick 3",
     "width": 1440,
     "height": 3120,
     "fps": 13,
@@ -5054,7 +5890,7 @@
   {
     "id": "matrix-bootanimation-op7p",
     "folderName": "matrix-bootanimation-op7p",
-    "name": "matrix-bootanimation-op7p",
+    "name": "Matrix",
     "width": 1440,
     "height": 3120,
     "fps": 15,
@@ -5074,9 +5910,31 @@
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/matrix-bootanimation-op7p/part0/000000.jpg"
   },
   {
+    "id": "pinterest-loop",
+    "folderName": "pinterest_loop",
+    "name": "Pinterest Loop",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 4087435,
+    "sizeFormatted": "3.9 MB",
+    "zipName": "pinterest_loop.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/pinterest_loop.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/pinterest_loop.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/pinterest_loop/part0/frame_0000.jpg"
+  },
+  {
     "id": "renovate-v2-bootanimation-op7p",
     "folderName": "renovate-v2-bootanimation-op7p",
-    "name": "renovate-v2-bootanimation-op7p",
+    "name": "Renovate v2",
     "width": 1440,
     "height": 3120,
     "fps": 30,
@@ -5094,5 +5952,27 @@
     "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/renovate-v2-bootanimation-op7p.zip",
     "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/renovate-v2-bootanimation-op7p.gif",
     "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/renovate-v2-bootanimation-op7p/part0/000000.jpg"
+  },
+  {
+    "id": "sharingan-loop",
+    "folderName": "sharingan_loop",
+    "name": "Sharingan Loop",
+    "width": 720,
+    "height": 1600,
+    "fps": 30,
+    "parts": [
+      {
+        "type": "p",
+        "loopCount": 0,
+        "pause": 0,
+        "folder": "part0"
+      }
+    ],
+    "sizeBytes": 2407356,
+    "sizeFormatted": "2.3 MB",
+    "zipName": "sharingan_loop.zip",
+    "zipUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/source-zips/sharingan_loop.zip",
+    "gifUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/previews/sharingan_loop.gif",
+    "coverUrl": "https://pub-a7037bf7f4c64dedb7aad4db8a0c68a2.r2.dev/extracted/sharingan_loop/part0/frame_0000.jpg"
   }
 ]
