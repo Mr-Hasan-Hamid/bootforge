@@ -76,6 +76,11 @@ export function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs">
               <li>
+                <Link href="/docs" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
+                  Documentation & FAQs
+                </Link>
+              </li>
+              <li>
                 <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="text-neutral-600 dark:text-neutral-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:translate-x-1 inline-block transition-all duration-200">
                   GitHub Repository
                 </a>
