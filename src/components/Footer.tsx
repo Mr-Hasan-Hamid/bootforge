@@ -141,6 +141,10 @@ export function Footer() {
               INSTAGRAM
             </a>
             <span>•</span>
+            <Link href="/legal" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
+              LEGAL & DISCLAIMER
+            </Link>
+            <span>•</span>
             <a href="https://github.com/Mr-Hasan-Hamid/bootanimdeck" target="_blank" rel="noreferrer" className="hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">
               SOURCE CODE
             </a>
