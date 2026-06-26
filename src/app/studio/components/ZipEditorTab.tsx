@@ -5,6 +5,7 @@ import { useZipFileLoader } from "../hooks/useZipFileLoader";
 import { useZipPreview } from "../hooks/useZipPreview";
 import { ZipSidebarPanel } from "./ZipSidebarPanel";
 import { ZipEditorConfigPanel } from "./ZipEditorConfigPanel";
+import { exportStandardZip, exportMagiskModuleZip } from "../utils/compiler";
 
 export function ZipEditorTab() {
   const zipCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -60,40 +61,36 @@ export function ZipEditorTab() {
     }
     setLoading(true);
     try {
-      let descContent = `${width} ${height} ${fps}\n`;
-      parts.forEach((p) => {
-        descContent += `${p.type} ${p.loopCount} ${p.pause} ${p.folder}\n`;
-      });
-      loadedZip.file("desc.txt", descContent);
-
-      const zipBlob = await loadedZip.generateAsync({
-        type: "blob",
-        compression: "STORE",
-      });
-
-      let finalBlob = zipBlob;
-      let finalName = zipName;
-
-      if (isMagiskModule && parentZip && nestedZipPath) {
-        parentZip.file(nestedZipPath, zipBlob);
-        finalBlob = await parentZip.generateAsync({
-          type: "blob",
-          compression: "DEFLATE",
-        });
-        finalName = zipName;
-      }
-
-      const downloadUrl = URL.createObjectURL(finalBlob);
-      const a = document.createElement("a");
-      a.href = downloadUrl;
-      a.download = finalName.endsWith(".zip") ? finalName : `${finalName}.zip`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(downloadUrl);
+      await exportStandardZip(
+        width,
+        height,
+        fps,
+        parts,
+        loadedZip,
+        isMagiskModule,
+        parentZip,
+        nestedZipPath,
+        zipName
+      );
     } catch (e) {
       console.error(e);
-      alert("Error compiling zip file.");
+      alert("Error compiling ZIP file.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const exportAsMagiskModule = async () => {
+    if (!loadedZip) {
+      alert("Please load an animation ZIP first.");
+      return;
+    }
+    setLoading(true);
+    try {
+      await exportMagiskModuleZip(width, height, fps, parts, loadedZip, zipName);
+    } catch (e) {
+      console.error(e);
+      alert("Error compiling Magisk module.");
     } finally {
       setLoading(false);
     }
@@ -143,6 +140,7 @@ export function ZipEditorTab() {
             preview.cleanupZipPreview();
           }}
           onExport={exportBootanimation}
+          onExportMagisk={exportAsMagiskModule}
         />
       </div>
 

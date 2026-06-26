@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import { AnimationItem } from "@/types/animation";
 import { usePlaybackSimulator } from "@/hooks/usePlaybackSimulator";
+import { useMagiskPacker } from "@/hooks/useMagiskPacker";
 import DrawerPreview from "./DrawerPreview";
 import PlaybackStatsAndInstall from "./PlaybackStatsAndInstall";
 import SimulatorControls from "./SimulatorControls";
@@ -14,15 +15,12 @@ interface PlaybackDrawerProps {
 
 export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const { downloadAsMagiskModule, packing, error: packingError } = useMagiskPacker();
 
   const sim = usePlaybackSimulator(selectedAnim, canvasRef);
 
   useEffect(() => {
-    if (selectedAnim) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
+    document.body.style.overflow = selectedAnim ? "hidden" : "";
     return () => {
       document.body.style.overflow = "";
     };
@@ -46,31 +44,6 @@ export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
             </h2>
           </div>
           <div className="flex items-center gap-3 shrink-0">
-            <a
-              href={selectedAnim.zipUrl}
-              download
-              className="relative overflow-hidden px-3.5 py-2 rounded-xl text-xs font-bold whitespace-nowrap bg-neutral-950 hover:bg-neutral-900 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-neutral-950 border border-neutral-800 dark:border-neutral-200 transition-all duration-200 flex items-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-[0_0_15px_rgba(0,223,216,0.15)]"
-            >
-              <span className="absolute inset-0 block w-full h-full pointer-events-none">
-                <span className="absolute inset-0 block w-full h-full animate-shimmer bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.15)_40%,rgba(255,255,255,0.15)_50%,rgba(255,255,255,0)_60%)] dark:bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.08)_40%,rgba(255,255,255,0.08)_50%,rgba(255,255,255,0)_60%)]" />
-              </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2.5}
-                stroke="currentColor"
-                className="w-3.5 h-3.5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-                />
-              </svg>
-              <span>Download ZIP</span>
-            </a>
-
             <button
               onClick={onClose}
               className="w-8 h-8 rounded-full border border-neutral-200 dark:border-neutral-800 flex items-center justify-center text-neutral-455 dark:text-neutral-500 hover:text-neutral-800 dark:hover:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors font-mono"
@@ -139,31 +112,58 @@ export function PlaybackDrawer({ selectedAnim, onClose }: PlaybackDrawerProps) {
         </div>
 
         {/* Drawer Footer Actions */}
-        <div className="p-6 border-t border-neutral-200 dark:border-neutral-900 bg-neutral-50 dark:bg-neutral-950 flex gap-4 shrink-0 font-sans">
-          <a
-            href={selectedAnim.zipUrl}
-            download
-            className="relative overflow-hidden flex-grow py-3 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white shadow-lg shadow-cyan-500/10 hover:shadow-cyan-400/25 transition-all duration-200 flex items-center justify-center gap-2 hover:scale-[1.01] active:scale-[0.99] font-mono"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={2.5}
-              stroke="currentColor"
-              className="w-4 h-4"
+        <div className="p-6 border-t border-neutral-200 dark:border-neutral-900 bg-neutral-50 dark:bg-neutral-950 flex flex-col gap-3 shrink-0 font-sans">
+          {packingError && (
+            <p className="text-[10px] font-mono text-red-500 text-center">
+              Error: {packingError}
+            </p>
+          )}
+          <div className="flex gap-3 w-full">
+            <a
+              href={selectedAnim.zipUrl}
+              download
+              className="relative overflow-hidden flex-1 py-3 rounded-xl text-xs font-bold text-center bg-neutral-100 dark:bg-neutral-900 hover:bg-neutral-200 dark:hover:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-800 transition-all duration-200 flex items-center justify-center gap-1.5 hover:scale-[1.01] active:scale-[0.99] font-mono"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-              />
-            </svg>
-            Download ({selectedAnim.sizeFormatted})
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={2.5}
+                stroke="currentColor"
+                className="w-3.5 h-3.5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
+                />
+              </svg>
+              <span>Download ZIP</span>
+            </a>
+
+            <button
+              onClick={() => downloadAsMagiskModule(selectedAnim.zipUrl, selectedAnim.name)}
+              disabled={packing}
+              className="relative overflow-hidden flex-1 py-3 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white shadow-lg shadow-cyan-500/10 hover:shadow-cyan-400/25 transition-all duration-200 flex items-center justify-center gap-1.5 hover:scale-[1.01] active:scale-[0.99] disabled:opacity-50 font-mono"
+            >
+              {packing ? (
+                <>
+                  <svg className="animate-spin h-3.5 w-3.5 text-white" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  <span>Packaging Module...</span>
+                </>
+              ) : (
+                <>
+                  <span>⚡ Magisk Module</span>
+                </>
+              )}
+            </button>
+          </div>
           <button
             onClick={onClose}
-            className="px-5 py-3 rounded-xl border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-455 hover:text-black dark:hover:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors text-xs font-semibold font-mono"
+            className="w-full py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-455 hover:text-black dark:hover:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors text-xs font-semibold font-mono"
           >
             Dismiss
           </button>

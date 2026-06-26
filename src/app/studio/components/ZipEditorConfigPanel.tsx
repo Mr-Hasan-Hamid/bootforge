@@ -26,6 +26,7 @@ interface ZipEditorConfigPanelProps {
   removePartConfig: (index: number) => void;
   onCloseWorkspace: () => void;
   onExport: () => void;
+  onExportMagisk?: () => void;
 }
 
 export function ZipEditorConfigPanel({
@@ -44,6 +45,7 @@ export function ZipEditorConfigPanel({
   removePartConfig,
   onCloseWorkspace,
   onExport,
+  onExportMagisk,
 }: ZipEditorConfigPanelProps) {
   return (
     <div className="md:col-span-2 space-y-6">
@@ -132,7 +134,7 @@ export function ZipEditorConfigPanel({
         </div>
 
         {/* Footer Actions */}
-        <div className="pt-6 border-t border-neutral-200 dark:border-neutral-900 flex justify-end gap-3">
+        <div className="pt-6 border-t border-neutral-200 dark:border-neutral-900 flex flex-wrap justify-end gap-3 font-sans">
           <button
             onClick={onCloseWorkspace}
             className="px-4 py-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:bg-neutral-50 dark:hover:bg-neutral-900 text-xs font-semibold text-neutral-655 dark:text-neutral-455 hover:text-black dark:hover:text-white transition-all duration-200 hover:scale-[1.01] active:scale-[0.99]"
@@ -141,13 +143,18 @@ export function ZipEditorConfigPanel({
           </button>
           <button
             onClick={onExport}
-            className="relative overflow-hidden px-5 py-2.5 rounded-xl text-xs font-bold text-center bg-black hover:bg-neutral-900 dark:bg-white dark:hover:bg-neutral-100 text-white dark:text-black border border-neutral-800 dark:border-neutral-200 shadow-md hover:shadow-[0_0_15px_rgba(0,223,216,0.15)] transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-1.5"
+            className="relative overflow-hidden px-5 py-2.5 rounded-xl text-xs font-bold text-center bg-neutral-100 dark:bg-neutral-900 border border-neutral-250 dark:border-neutral-800 text-neutral-800 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-1.5"
           >
-            <span className="absolute inset-0 block w-full h-full pointer-events-none">
-              <span className="absolute inset-0 block w-full h-full animate-shimmer bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.15)_40%,rgba(255,255,255,0.15)_50%,rgba(255,255,255,0)_60%)] dark:bg-[linear-gradient(120deg,rgba(255,255,255,0)_30%,rgba(255,255,255,0.08)_40%,rgba(255,255,255,0.08)_50%,rgba(255,255,255,0)_60%)]" />
-            </span>
-            <span className="relative z-10 flex items-center gap-1.5">💾 Compile & Download ZIP</span>
+            <span>💾 Compile ZIP</span>
           </button>
+          {onExportMagisk && (
+            <button
+              onClick={onExportMagisk}
+              className="relative overflow-hidden px-5 py-2.5 rounded-xl text-xs font-bold text-center bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white shadow-lg shadow-cyan-500/10 hover:shadow-cyan-400/25 transition-all duration-200 hover:scale-[1.01] active:scale-[0.99] flex items-center justify-center gap-1.5"
+            >
+              <span>⚡ Magisk Module</span>
+            </button>
+          )}
         </div>
       </div>
     </div>
