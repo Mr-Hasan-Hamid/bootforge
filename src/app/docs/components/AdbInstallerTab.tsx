@@ -79,18 +79,18 @@ export function AdbInstallerTab() {
         </p>
 
         {/* Setup Steps */}
-        <div className="space-y-4">
+        <div className="space-y-4 font-sans">
           <h3 className="text-sm font-bold tracking-tight text-neutral-900 dark:text-white">
             Detailed Step-by-Step Instructions
           </h3>
-          <ol className="list-decimal list-inside space-y-2.5 font-mono text-[11px]">
+          <ol className="list-decimal list-inside space-y-2.5 text-xs text-neutral-600 dark:text-neutral-400 pl-1 leading-relaxed">
             <li>
-              Enable **USB Debugging** on your phone (go to Settings ❯ About Phone ❯ Tap *Build Number* 7 times ❯ Developer Options ❯ Toggle *USB Debugging*).
+              Enable <strong className="text-neutral-900 dark:text-white">USB Debugging</strong> on your phone (go to Settings ❯ About Phone ❯ Tap <strong className="text-neutral-900 dark:text-white font-semibold">Build Number</strong> 7 times ❯ Developer Options ❯ Toggle <strong className="text-neutral-900 dark:text-white font-semibold">USB Debugging</strong>).
             </li>
             <li>Connect your phone to your PC via a USB cable.</li>
             <li>
               Download your custom animation from the gallery or compile it in the Studio. Rename it to exactly{" "}
-              <code className="text-neutral-800 dark:text-white bg-neutral-100 dark:bg-neutral-900 px-1 py-0.5 rounded border border-neutral-200 dark:border-neutral-850">
+              <code className="text-neutral-800 dark:text-white font-mono bg-neutral-100 dark:bg-neutral-900 px-1 py-0.5 rounded border border-neutral-200 dark:border-neutral-850 text-[10px]">
                 bootanimation.zip
               </code>.
             </li>
@@ -107,7 +107,7 @@ export function AdbInstallerTab() {
           <TerminalMock
             title="CMD.EXE - Command Prompt"
             promptUser="win-shell"
-            promptDir="C:\\platform-tools"
+            promptDir="C:\platform-tools"
             commands={windowsAdbCommands}
           />
         </div>

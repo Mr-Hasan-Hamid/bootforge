@@ -55,14 +55,14 @@ export function OnDeviceTab() {
             ⚡ Option 1: Systemless Magisk / KernelSU Modules (Recommended)
           </h3>
           <p>
-            This is the **safest and most modern** custom animation delivery method. It replaces boot animations systemlessly inside a virtual overlay, meaning `/system` partition binaries are left untouched.
+            This is the <strong className="text-neutral-900 dark:text-white font-semibold">safest and most modern</strong> custom animation delivery method. It replaces boot animations systemlessly inside a virtual overlay, meaning standard system partition binaries are left untouched.
           </p>
-          <ol className="list-decimal list-inside space-y-1.5 font-mono text-[10px] pl-2 text-neutral-500 dark:text-neutral-400">
+          <ol className="list-decimal list-inside space-y-2 text-xs text-neutral-650 dark:text-neutral-400 pl-2 font-sans">
             <li>Find a preset animation in our gallery or compile a custom one in the Studio.</li>
-            <li>Click the **⚡ Magisk Module** button to generate and download the flashable module ZIP.</li>
+            <li>Click the <strong className="text-neutral-900 dark:text-white font-semibold">⚡ Magisk Module</strong> button to generate and download the flashable module ZIP.</li>
             <li>Open the Magisk Manager, KernelSU, or APatch app on your Android device.</li>
-            <li>Navigate to the **Modules** tab ❯ Tap **Install from storage** ❯ Select the downloaded module ZIP.</li>
-            <li>Once the installation log flashes, tap **Reboot** to load your new animation!</li>
+            <li>Navigate to the <strong className="text-neutral-900 dark:text-white font-semibold">Modules</strong> tab ❯ Tap <strong className="text-neutral-900 dark:text-white font-semibold">Install from storage</strong> ❯ Select the downloaded module ZIP.</li>
+            <li>Once the installation log flashes, tap <strong className="text-neutral-900 dark:text-white font-semibold">Reboot</strong> to load your new animation!</li>
           </ol>
         </div>
 
@@ -72,7 +72,7 @@ export function OnDeviceTab() {
             Option 2: Local Termux Root Installer Script
           </h3>
           <p>
-            If you want to manually copy the boot animation directly to the root files directory without installing an entire Magisk module, you can run our local helper script in Termux.
+            If you want to manually copy the boot animation directly to the root files directory without installing an entire Magisk module, you can run our local helper script in <strong className="text-neutral-900 dark:text-white font-semibold">Termux</strong>.
           </p>
           <TerminalMock
             title="Termux Terminal - root@android"
