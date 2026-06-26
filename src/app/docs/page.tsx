@@ -7,15 +7,40 @@ import OnDeviceTab from "./components/OnDeviceTab";
 import StudioGuideTab from "./components/StudioGuideTab";
 import FaqTab from "./components/FaqTab";
 
+interface NavItem {
+  id: "adb" | "device" | "studio" | "faq";
+  label: string;
+}
+
+interface NavGroup {
+  title: string;
+  items: NavItem[];
+}
+
 export default function DocsPage() {
   const [activeTab, setActiveTab] = useState<"adb" | "device" | "studio" | "faq">("adb");
 
-  const tabs = [
-    { id: "adb", label: "💻 PC Installer (ADB)" },
-    { id: "device", label: "📱 On-Device (Magisk/Termux)" },
-    { id: "studio", label: "🛠️ Studio & Video Guide" },
-    { id: "faq", label: "❓ FAQs & Troubleshooting" },
-  ] as const;
+  const navGroups: NavGroup[] = [
+    {
+      title: "Installation Methods",
+      items: [
+        { id: "adb", label: "💻 PC Installer (ADB)" },
+        { id: "device", label: "📱 On-Device (Magisk/Termux)" },
+      ],
+    },
+    {
+      title: "Creator Toolkit",
+      items: [
+        { id: "studio", label: "🛠️ Studio & Video Guide" },
+      ],
+    },
+    {
+      title: "Help & Support",
+      items: [
+        { id: "faq", label: "❓ FAQs & Troubleshooting" },
+      ],
+    },
+  ];
 
   return (
     <div className="bg-white dark:bg-black text-black dark:text-white min-h-screen font-sans leading-relaxed">
@@ -36,27 +61,58 @@ export default function DocsPage() {
       <main className="mx-auto max-w-7xl px-6 pb-24 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
           
-          {/* Sidebar Tabs */}
-          <aside className="lg:col-span-1 space-y-2 border-b lg:border-b-0 lg:border-r border-neutral-200 dark:border-neutral-900 pb-6 lg:pb-0 lg:pr-6">
-            <h3 className="hidden lg:block text-[10px] font-mono tracking-widest text-neutral-455 dark:text-neutral-500 uppercase font-extrabold mb-4">
-              Documentation Map
-            </h3>
-            {/* Scrollable on mobile, column on desktop */}
-            <div className="flex lg:flex-col gap-2 overflow-x-auto pb-2 lg:pb-0 scrollbar-none shrink-0">
-              {tabs.map((tab) => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id)}
-                  className={`w-full text-left px-4 py-3 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 ${
-                    activeTab === tab.id
-                      ? "bg-neutral-900 text-white dark:bg-white dark:text-black shadow-md"
-                      : "border border-neutral-200 dark:border-neutral-900 hover:bg-neutral-50 dark:hover:bg-neutral-900 text-neutral-655 dark:text-neutral-400"
-                  }`}
-                >
-                  {tab.label}
-                </button>
+          {/* Sidebar Navigation */}
+          <aside className="lg:col-span-1 border-b lg:border-b-0 lg:border-r border-neutral-200 dark:border-neutral-900 pb-6 lg:pb-0 lg:pr-6">
+            
+            {/* Desktop: Grouped Vertical Sidebar (Zenith Style) */}
+            <div className="hidden lg:block space-y-6">
+              {navGroups.map((group) => (
+                <div key={group.title} className="space-y-2">
+                  <h4 className="px-4 text-[9px] font-bold text-neutral-400 dark:text-neutral-500 uppercase tracking-[0.2em] font-mono">
+                    {group.title}
+                  </h4>
+                  <div className="space-y-1">
+                    {group.items.map((item) => {
+                      const isActive = activeTab === item.id;
+                      return (
+                        <button
+                          key={item.id}
+                          onClick={() => setActiveTab(item.id)}
+                          className={`w-full flex items-center gap-3 rounded-xl px-4 py-2.5 text-xs font-semibold transition-all text-left ${
+                            isActive
+                              ? "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 font-bold"
+                              : "text-neutral-500 dark:text-neutral-400 hover:bg-neutral-50 dark:hover:bg-neutral-900 hover:text-neutral-900 dark:hover:text-white"
+                          }`}
+                        >
+                          {item.label}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
               ))}
             </div>
+
+            {/* Mobile: Horizontal Scrolling Tab Bar */}
+            <div className="lg:hidden flex gap-2 overflow-x-auto pb-2 scrollbar-none shrink-0">
+              {navGroups.flatMap((g) => g.items).map((tab) => {
+                const isActive = activeTab === tab.id;
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`px-4 py-2.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 ${
+                      isActive
+                        ? "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 font-bold shadow-sm"
+                        : "border border-neutral-200 dark:border-neutral-900 hover:bg-neutral-50 dark:hover:bg-neutral-900 text-neutral-500 dark:text-neutral-400"
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                );
+              })}
+            </div>
+
           </aside>
 
           {/* Content Area */}
