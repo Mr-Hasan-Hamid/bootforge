@@ -5910,28 +5910,6 @@
     "coverUrl": "/extracted/blue_purple_aesthetic/part0/frame_0001.jpg"
   },
   {
-    "id": "free-hd-wallpapers-for-desktop-mobile-devices",
-    "folderName": "free_hd_wallpapers_for_desktop_mobile_devices",
-    "name": "free_hd_wallpapers_for_desktop_mobile_devices",
-    "width": 576,
-    "height": 1024,
-    "fps": 30,
-    "parts": [
-      {
-        "type": "p",
-        "loopCount": 0,
-        "pause": 0,
-        "folder": "part0"
-      }
-    ],
-    "sizeBytes": 0,
-    "sizeFormatted": "0 Bytes",
-    "zipName": "free_hd_wallpapers_for_desktop_mobile_devices.zip",
-    "zipUrl": "/source-zips/free_hd_wallpapers_for_desktop_mobile_devices.zip",
-    "gifUrl": null,
-    "coverUrl": "/extracted/free_hd_wallpapers_for_desktop_mobile_devices/part0/frame_0001.jpg"
-  },
-  {
     "id": "galaxy-compass",
     "folderName": "galaxy_compass",
     "name": "Galaxy Compass",
@@ -5974,28 +5952,6 @@
     "zipUrl": "/source-zips/goku_aura.zip",
     "gifUrl": "/previews/goku_aura.gif",
     "coverUrl": "/extracted/goku_aura/part0/frame_0000.jpg"
-  },
-  {
-    "id": "hh",
-    "folderName": "hh",
-    "name": "hh",
-    "width": 720,
-    "height": 1280,
-    "fps": 30,
-    "parts": [
-      {
-        "type": "p",
-        "loopCount": 0,
-        "pause": 0,
-        "folder": "part0"
-      }
-    ],
-    "sizeBytes": 0,
-    "sizeFormatted": "0 Bytes",
-    "zipName": "hh.zip",
-    "zipUrl": "/source-zips/hh.zip",
-    "gifUrl": null,
-    "coverUrl": "/extracted/hh/part0/frame_0001.jpg"
   },
   {
     "id": "infernal-eye",
@@ -6106,28 +6062,6 @@
     "zipUrl": "/source-zips/pinterest_loop.zip",
     "gifUrl": "/previews/pinterest_loop.gif",
     "coverUrl": "/extracted/pinterest_loop/part0/frame_0000.jpg"
-  },
-  {
-    "id": "pinterest-video",
-    "folderName": "pinterest_video",
-    "name": "pinterest_video",
-    "width": 576,
-    "height": 576,
-    "fps": 30,
-    "parts": [
-      {
-        "type": "p",
-        "loopCount": 0,
-        "pause": 0,
-        "folder": "part0"
-      }
-    ],
-    "sizeBytes": 0,
-    "sizeFormatted": "0 Bytes",
-    "zipName": "pinterest_video.zip",
-    "zipUrl": "/source-zips/pinterest_video.zip",
-    "gifUrl": null,
-    "coverUrl": "/extracted/pinterest_video/part0/frame_0001.jpg"
   },
   {
     "id": "renovate-v2-bootanimation-op7p",
